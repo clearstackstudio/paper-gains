@@ -1,4 +1,4 @@
-# Paper Gains
+# Mockfolio
 
 A personal-project market tracker + paper-trading pick'em game. "Honest Line for
 stocks" in tone: honest, educational framing — **not financial advice, paper trading

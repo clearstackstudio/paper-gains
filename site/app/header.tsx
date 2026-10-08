@@ -17,7 +17,7 @@ export default function Header() {
             <path d="M18 6h-4M18 6v4" stroke="#34d399" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
           <span className="text-base font-extrabold tracking-tight">
-            Paper<span className="text-emerald-400 light:text-emerald-600">Gains</span>
+            Mock<span className="text-emerald-400 light:text-emerald-600">folio</span>
           </span>
         </Link>
         <nav className="flex items-center gap-1 text-sm font-medium">

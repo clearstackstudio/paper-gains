@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t border-white/10 light:border-zinc-200">
       <div className="mx-auto w-full max-w-6xl px-4 py-8 text-sm text-zinc-500 light:text-zinc-600 sm:px-6">
         <p className="max-w-3xl leading-relaxed">
-          Paper Gains is a personal project for education and entertainment. Nothing here is
+          Mockfolio is a personal project for education and entertainment. Nothing here is
           financial advice, and paper trading involves no real money. Market data is delayed
           and indicative, sourced from Yahoo Finance. Past performance does not indicate
           future results.

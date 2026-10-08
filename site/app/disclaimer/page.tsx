@@ -3,7 +3,7 @@ import { disclaimerText } from "../lib/market";
 const points = [
   {
     title: "Not financial advice",
-    body: "Everything on Paper Gains — prices, charts, pick'em scores, and any commentary — is for education and entertainment only. It is not financial advice, not a recommendation to buy or sell any security, and not a solicitation. I am not a financial advisor, and nothing here creates an advisor-client relationship.",
+    body: "Everything on Mockfolio — prices, charts, pick'em scores, and any commentary — is for education and entertainment only. It is not financial advice, not a recommendation to buy or sell any security, and not a solicitation. I am not a financial advisor, and nothing here creates an advisor-client relationship.",
   },
   {
     title: "Paper trading only",
@@ -23,7 +23,7 @@ const points = [
   },
   {
     title: "No account, no personal data",
-    body: "Paper Gains has no accounts and no server. Your pick'em entries are stored only in your own browser's local storage. Nothing is sent anywhere.",
+    body: "Mockfolio has no accounts and no server. Your pick'em entries are stored only in your own browser's local storage. Nothing is sent anywhere.",
   },
 ];
 

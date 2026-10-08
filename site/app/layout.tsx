@@ -4,9 +4,9 @@ import Header from "./header";
 import Footer from "./footer";
 
 export const metadata: Metadata = {
-  title: "Paper Gains — track the market, paper-trade for fun",
+  title: "Mockfolio — track the market, paper-trade for fun",
   description:
-    "Paper Gains is a personal project: track market indices and large-cap stocks, and play a weekly paper-trading pick'em game. No real money, not financial advice.",
+    "Mockfolio is a personal project: track market indices and large-cap stocks, and play a weekly paper-trading pick'em game. No real money, not financial advice.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
