@@ -1,0 +1,486 @@
+{
+ "strategy": "Top-5 trailing 20-trading-day momentum: each week the model buys the 5 stocks with the best 20-trading-day return as of the previous Friday's close and holds them one week. Mechanical rule, no human override, no lookahead.",
+ "generated": "2026-10-08T07:02:36.694929+00:00",
+ "weeks": {
+  "2025-W46": {
+   "picks": [
+    "GOOGL",
+    "AMZN",
+    "QCOM",
+    "AAPL",
+    "BAC"
+   ],
+   "picked_at": "2025-11-07"
+  },
+  "2025-W47": {
+   "picks": [
+    "AMZN",
+    "MRK",
+    "GOOGL",
+    "AAPL",
+    "XOM"
+   ],
+   "picked_at": "2025-11-14"
+  },
+  "2025-W48": {
+   "picks": [
+    "GOOGL",
+    "MRK",
+    "KO",
+    "ABBV",
+    "AAPL"
+   ],
+   "picked_at": "2025-11-21"
+  },
+  "2025-W49": {
+   "picks": [
+    "MRK",
+    "GOOGL",
+    "WMT",
+    "PFE",
+    "BRK-B"
+   ],
+   "picked_at": "2025-11-28"
+  },
+  "2025-W50": {
+   "picks": [
+    "MRK",
+    "WMT",
+    "GOOGL",
+    "AVGO",
+    "CRM"
+   ],
+   "picked_at": "2025-12-05"
+  },
+  "2025-W51": {
+   "picks": [
+    "TSLA",
+    "WMT",
+    "GOOGL",
+    "CRM",
+    "MRK"
+   ],
+   "picked_at": "2025-12-12"
+  },
+  "2025-W52": {
+   "picks": [
+    "TSLA",
+    "CRM",
+    "ADBE",
+    "META",
+    "QCOM"
+   ],
+   "picked_at": "2025-12-19"
+  },
+  "2026-W01": {
+   "picks": [
+    "CRM",
+    "ADBE",
+    "TSLA",
+    "DIS",
+    "JPM"
+   ],
+   "picked_at": "2025-12-26"
+  },
+  "2026-W02": {
+   "picks": [
+    "DIS",
+    "CRM",
+    "NVDA",
+    "V",
+    "MRK"
+   ],
+   "picked_at": "2026-01-02"
+  },
+  "2026-W03": {
+   "picks": [
+    "MRK",
+    "V",
+    "DIS",
+    "MA",
+    "AMZN"
+   ],
+   "picked_at": "2026-01-09"
+  },
+  "2026-W04": {
+   "picks": [
+    "AMD",
+    "COST",
+    "GOOGL",
+    "XOM",
+    "MRK"
+   ],
+   "picked_at": "2026-01-16"
+  },
+  "2026-W05": {
+   "picks": [
+    "AMD",
+    "COST",
+    "XOM",
+    "HD",
+    "UNH"
+   ],
+   "picked_at": "2026-01-23"
+  },
+  "2026-W06": {
+   "picks": [
+    "XOM",
+    "AMD",
+    "COST",
+    "HD",
+    "META"
+   ],
+   "picked_at": "2026-01-30"
+  },
+  "2026-W07": {
+   "picks": [
+    "XOM",
+    "WMT",
+    "KO",
+    "PG",
+    "MRK"
+   ],
+   "picked_at": "2026-02-06"
+  },
+  "2026-W08": {
+   "picks": [
+    "XOM",
+    "WMT",
+    "KO",
+    "PG",
+    "MRK"
+   ],
+   "picked_at": "2026-02-13"
+  },
+  "2026-W09": {
+   "picks": [
+    "MRK",
+    "KO",
+    "XOM",
+    "PG",
+    "AAPL"
+   ],
+   "picked_at": "2026-02-20"
+  },
+  "2026-W10": {
+   "picks": [
+    "NFLX",
+    "MRK",
+    "PG",
+    "KO",
+    "XOM"
+   ],
+   "picked_at": "2026-02-27"
+  },
+  "2026-W11": {
+   "picks": [
+    "NFLX",
+    "ORCL",
+    "UNH",
+    "AVGO",
+    "CRM"
+   ],
+   "picked_at": "2026-03-06"
+  },
+  "2026-W12": {
+   "picks": [
+    "NFLX",
+    "XOM",
+    "AMZN",
+    "CRM",
+    "COST"
+   ],
+   "picked_at": "2026-03-13"
+  },
+  "2026-W13": {
+   "picks": [
+    "NFLX",
+    "XOM",
+    "CRM",
+    "PFE",
+    "ORCL"
+   ],
+   "picked_at": "2026-03-20"
+  },
+  "2026-W14": {
+   "picks": [
+    "XOM",
+    "AMD",
+    "PFE",
+    "COST",
+    "MRK"
+   ],
+   "picked_at": "2026-03-27"
+  },
+  "2026-W15": {
+   "picks": [
+    "AMD",
+    "XOM",
+    "PFE",
+    "MRK",
+    "COST"
+   ],
+   "picked_at": "2026-04-02"
+  },
+  "2026-W16": {
+   "picks": [
+    "AMD",
+    "AMZN",
+    "BAC",
+    "AVGO",
+    "JPM"
+   ],
+   "picked_at": "2026-04-10"
+  },
+  "2026-W17": {
+   "picks": [
+    "AMD",
+    "AVGO",
+    "AMZN",
+    "UNH",
+    "BAC"
+   ],
+   "picked_at": "2026-04-17"
+  },
+  "2026-W18": {
+   "picks": [
+    "AMD",
+    "AVGO",
+    "UNH",
+    "AMZN",
+    "META"
+   ],
+   "picked_at": "2026-04-24"
+  },
+  "2026-W19": {
+   "picks": [
+    "AMD",
+    "QCOM",
+    "AVGO",
+    "UNH",
+    "GOOGL"
+   ],
+   "picked_at": "2026-05-01"
+  },
+  "2026-W20": {
+   "picks": [
+    "AMD",
+    "QCOM",
+    "ORCL",
+    "GOOGL",
+    "UNH"
+   ],
+   "picked_at": "2026-05-08"
+  },
+  "2026-W21": {
+   "picks": [
+    "AMD",
+    "QCOM",
+    "UNH",
+    "GOOGL",
+    "NVDA"
+   ],
+   "picked_at": "2026-05-15"
+  },
+  "2026-W22": {
+   "picks": [
+    "QCOM",
+    "AMD",
+    "AAPL",
+    "TSLA",
+    "GOOGL"
+   ],
+   "picked_at": "2026-05-22"
+  },
+  "2026-W23": {
+   "picks": [
+    "AMD",
+    "ORCL",
+    "QCOM",
+    "AAPL",
+    "TSLA"
+   ],
+   "picked_at": "2026-05-29"
+  },
+  "2026-W24": {
+   "picks": [
+    "AMD",
+    "ABBV",
+    "ORCL",
+    "UNH",
+    "MRK"
+   ],
+   "picked_at": "2026-06-05"
+  },
+  "2026-W25": {
+   "picks": [
+    "AMD",
+    "BAC",
+    "HD",
+    "ABBV",
+    "JPM"
+   ],
+   "picked_at": "2026-06-12"
+  },
+  "2026-W26": {
+   "picks": [
+    "AMD",
+    "QCOM",
+    "BAC",
+    "HD",
+    "JPM"
+   ],
+   "picked_at": "2026-06-18"
+  },
+  "2026-W27": {
+   "picks": [
+    "ABBV",
+    "BAC",
+    "UNH",
+    "JPM",
+    "HD"
+   ],
+   "picked_at": "2026-06-26"
+  },
+  "2026-W28": {
+   "picks": [
+    "ABBV",
+    "V",
+    "HD",
+    "MA",
+    "MRK"
+   ],
+   "picked_at": "2026-07-02"
+  },
+  "2026-W29": {
+   "picks": [
+    "AMD",
+    "META",
+    "ABBV",
+    "BAC",
+    "JPM"
+   ],
+   "picked_at": "2026-07-10"
+  },
+  "2026-W30": {
+   "picks": [
+    "ADBE",
+    "ABBV",
+    "META",
+    "AAPL",
+    "MA"
+   ],
+   "picked_at": "2026-07-17"
+  },
+  "2026-W31": {
+   "picks": [
+    "AAPL",
+    "ADBE",
+    "XOM",
+    "MA",
+    "META"
+   ],
+   "picked_at": "2026-07-24"
+  },
+  "2026-W32": {
+   "picks": [
+    "MSFT",
+    "ADBE",
+    "XOM",
+    "AMZN",
+    "CRM"
+   ],
+   "picked_at": "2026-07-31"
+  },
+  "2026-W33": {
+   "picks": [
+    "MSFT",
+    "ADBE",
+    "CRM",
+    "PFE",
+    "AMZN"
+   ],
+   "picked_at": "2026-08-07"
+  },
+  "2026-W34": {
+   "picks": [
+    "MSFT",
+    "ORCL",
+    "CRM",
+    "NFLX",
+    "ADBE"
+   ],
+   "picked_at": "2026-08-14"
+  },
+  "2026-W35": {
+   "picks": [
+    "CRM",
+    "ORCL",
+    "MSFT",
+    "ADBE",
+    "MRK"
+   ],
+   "picked_at": "2026-08-21"
+  },
+  "2026-W36": {
+   "picks": [
+    "CRM",
+    "ADBE",
+    "ORCL",
+    "NFLX",
+    "MRK"
+   ],
+   "picked_at": "2026-08-28"
+  },
+  "2026-W37": {
+   "picks": [
+    "CRM",
+    "MRK",
+    "ORCL",
+    "TSLA",
+    "PFE"
+   ],
+   "picked_at": "2026-09-04"
+  },
+  "2026-W38": {
+   "picks": [
+    "CRM",
+    "QCOM",
+    "META",
+    "AAPL",
+    "TSLA"
+   ],
+   "picked_at": "2026-09-11"
+  },
+  "2026-W39": {
+   "picks": [
+    "META",
+    "AMD",
+    "CRM",
+    "QCOM",
+    "AAPL"
+   ],
+   "picked_at": "2026-09-18"
+  },
+  "2026-W40": {
+   "picks": [
+    "AMD",
+    "META",
+    "QCOM",
+    "AAPL",
+    "WMT"
+   ],
+   "picked_at": "2026-09-25"
+  },
+  "2026-W41": {
+   "picks": [
+    "AMD",
+    "META",
+    "QCOM",
+    "NVDA",
+    "AAPL"
+   ],
+   "picked_at": "2026-10-02"
+  }
+ }
+}
