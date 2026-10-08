@@ -10,6 +10,9 @@ const SYMBOLS = [
 
 const UA = "Mozilla/5.0 (compatible; Mockfolio/1.0)";
 
+// Never statically prerender: every request must hit Yahoo for fresh quotes.
+export const dynamic = "force-dynamic";
+
 export type Quote = {
   price: number;
   change: number;
