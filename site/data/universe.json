@@ -1,18 +1,14 @@
 {
- "generated": "2026-10-07T21:39:03.087668+00:00",
+ "generated": "2026-10-08T21:39:10.295114+00:00",
  "disclaimer": "Delayed/indicative data for education only. Not financial advice.",
  "stocks": [
   {
    "symbol": "AAPL",
    "name": "Apple",
-   "price": 336.67,
-   "change": 3.04,
-   "changePct": 0.91,
+   "price": 340.42,
+   "change": 3.75,
+   "changePct": 1.11,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 257.11
-    },
     {
      "date": "2025-10-09",
      "close": 253.11
@@ -1012,20 +1008,20 @@
     {
      "date": "2026-10-07",
      "close": 336.67
+    },
+    {
+     "date": "2026-10-08",
+     "close": 340.42
     }
    ]
   },
   {
    "symbol": "MSFT",
    "name": "Microsoft",
-   "price": 529.76,
-   "change": 0.46,
-   "changePct": 0.09,
+   "price": 522.61,
+   "change": -7.15,
+   "changePct": -1.35,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 520.57
-    },
     {
      "date": "2025-10-09",
      "close": 518.14
@@ -2025,20 +2021,20 @@
     {
      "date": "2026-10-07",
      "close": 529.76
+    },
+    {
+     "date": "2026-10-08",
+     "close": 522.61
     }
    ]
   },
   {
    "symbol": "NVDA",
    "name": "NVIDIA",
-   "price": 237.47,
-   "change": -1.77,
-   "changePct": -0.74,
+   "price": 230.48,
+   "change": -6.99,
+   "changePct": -2.94,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 188.66
-    },
     {
      "date": "2025-10-09",
      "close": 192.11
@@ -2173,7 +2169,7 @@
     },
     {
      "date": "2025-11-25",
-     "close": 177.39
+     "close": 177.4
     },
     {
      "date": "2025-11-26",
@@ -3038,20 +3034,20 @@
     {
      "date": "2026-10-07",
      "close": 237.47
+    },
+    {
+     "date": "2026-10-08",
+     "close": 230.48
     }
    ]
   },
   {
    "symbol": "AMZN",
    "name": "Amazon",
-   "price": 259.92,
-   "change": 3.63,
-   "changePct": 1.42,
+   "price": 254.06,
+   "change": -5.86,
+   "changePct": -2.25,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 225.22
-    },
     {
      "date": "2025-10-09",
      "close": 227.74
@@ -4051,20 +4047,20 @@
     {
      "date": "2026-10-07",
      "close": 259.92
+    },
+    {
+     "date": "2026-10-08",
+     "close": 254.06
     }
    ]
   },
   {
    "symbol": "META",
    "name": "Meta",
-   "price": 721.31,
-   "change": -17.57,
-   "changePct": -2.38,
+   "price": 720.89,
+   "change": -0.42,
+   "changePct": -0.06,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 715.41
-    },
     {
      "date": "2025-10-09",
      "close": 731.03
@@ -5064,20 +5060,20 @@
     {
      "date": "2026-10-07",
      "close": 721.31
+    },
+    {
+     "date": "2026-10-08",
+     "close": 720.89
     }
    ]
   },
   {
    "symbol": "GOOGL",
    "name": "Alphabet",
-   "price": 350.5,
-   "change": 2.82,
-   "changePct": 0.81,
+   "price": 348.29,
+   "change": -2.21,
+   "changePct": -0.63,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 243.99
-    },
     {
      "date": "2025-10-09",
      "close": 240.9
@@ -6077,20 +6073,20 @@
     {
      "date": "2026-10-07",
      "close": 350.5
+    },
+    {
+     "date": "2026-10-08",
+     "close": 348.29
     }
    ]
   },
   {
    "symbol": "TSLA",
    "name": "Tesla",
-   "price": 377.81,
-   "change": -2.87,
-   "changePct": -0.75,
+   "price": 375.0,
+   "change": -2.81,
+   "changePct": -0.74,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 438.69
-    },
     {
      "date": "2025-10-09",
      "close": 435.54
@@ -7090,20 +7086,20 @@
     {
      "date": "2026-10-07",
      "close": 377.81
+    },
+    {
+     "date": "2026-10-08",
+     "close": 375.0
     }
    ]
   },
   {
    "symbol": "AVGO",
    "name": "Broadcom",
-   "price": 376.51,
-   "change": 0.7,
-   "changePct": 0.19,
+   "price": 360.14,
+   "change": -16.37,
+   "changePct": -4.35,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 342.95
-    },
     {
      "date": "2025-10-09",
      "close": 342.47
@@ -8103,20 +8099,20 @@
     {
      "date": "2026-10-07",
      "close": 376.51
+    },
+    {
+     "date": "2026-10-08",
+     "close": 360.14
     }
    ]
   },
   {
    "symbol": "BRK-B",
    "name": "Berkshire Hathaway",
-   "price": 506.25,
-   "change": 0.71,
-   "changePct": 0.14,
+   "price": 511.05,
+   "change": 4.8,
+   "changePct": 0.95,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 499.84
-    },
     {
      "date": "2025-10-09",
      "close": 496.74
@@ -9116,20 +9112,20 @@
     {
      "date": "2026-10-07",
      "close": 506.25
+    },
+    {
+     "date": "2026-10-08",
+     "close": 511.05
     }
    ]
   },
   {
    "symbol": "JPM",
    "name": "JPMorgan Chase",
-   "price": 329.58,
-   "change": -1.7,
-   "changePct": -0.51,
+   "price": 331.42,
+   "change": 1.84,
+   "changePct": 0.56,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 298.29
-    },
     {
      "date": "2025-10-09",
      "close": 299.76
@@ -10129,20 +10125,20 @@
     {
      "date": "2026-10-07",
      "close": 329.58
+    },
+    {
+     "date": "2026-10-08",
+     "close": 331.42
     }
    ]
   },
   {
    "symbol": "V",
    "name": "Visa",
-   "price": 372.1,
-   "change": 1.46,
-   "changePct": 0.39,
+   "price": 375.1,
+   "change": 3.0,
+   "changePct": 0.81,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 348.57
-    },
     {
      "date": "2025-10-09",
      "close": 344.29
@@ -11142,20 +11138,20 @@
     {
      "date": "2026-10-07",
      "close": 372.1
+    },
+    {
+     "date": "2026-10-08",
+     "close": 375.1
     }
    ]
   },
   {
    "symbol": "XOM",
    "name": "Exxon Mobil",
-   "price": 164.05,
-   "change": -0.43,
-   "changePct": -0.26,
+   "price": 168.5,
+   "change": 4.45,
+   "changePct": 2.71,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 110.81
-    },
     {
      "date": "2025-10-09",
      "close": 109.73
@@ -12155,20 +12151,20 @@
     {
      "date": "2026-10-07",
      "close": 164.05
+    },
+    {
+     "date": "2026-10-08",
+     "close": 168.5
     }
    ]
   },
   {
    "symbol": "UNH",
    "name": "UnitedHealth",
-   "price": 375.98,
-   "change": -0.34,
-   "changePct": -0.09,
+   "price": 370.95,
+   "change": -5.03,
+   "changePct": -1.34,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 360.33
-    },
     {
      "date": "2025-10-09",
      "close": 358.15
@@ -13168,20 +13164,20 @@
     {
      "date": "2026-10-07",
      "close": 375.98
+    },
+    {
+     "date": "2026-10-08",
+     "close": 370.95
     }
    ]
   },
   {
    "symbol": "MA",
    "name": "Mastercard",
-   "price": 570.06,
-   "change": 3.48,
-   "changePct": 0.61,
+   "price": 574.76,
+   "change": 4.7,
+   "changePct": 0.82,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 572.87
-    },
     {
      "date": "2025-10-09",
      "close": 561.79
@@ -14181,20 +14177,20 @@
     {
      "date": "2026-10-07",
      "close": 570.06
+    },
+    {
+     "date": "2026-10-08",
+     "close": 574.76
     }
    ]
   },
   {
    "symbol": "COST",
    "name": "Costco",
-   "price": 942.25,
-   "change": 6.57,
-   "changePct": 0.7,
+   "price": 947.92,
+   "change": 5.67,
+   "changePct": 0.6,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 909.49
-    },
     {
      "date": "2025-10-09",
      "close": 937.42
@@ -15194,20 +15190,20 @@
     {
      "date": "2026-10-07",
      "close": 942.25
+    },
+    {
+     "date": "2026-10-08",
+     "close": 947.92
     }
    ]
   },
   {
    "symbol": "HD",
    "name": "Home Depot",
-   "price": 285.77,
-   "change": -0.92,
-   "changePct": -0.32,
+   "price": 295.47,
+   "change": 9.7,
+   "changePct": 3.39,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 373.22
-    },
     {
      "date": "2025-10-09",
      "close": 367.29
@@ -16207,20 +16203,20 @@
     {
      "date": "2026-10-07",
      "close": 285.77
+    },
+    {
+     "date": "2026-10-08",
+     "close": 295.47
     }
    ]
   },
   {
    "symbol": "PG",
    "name": "Procter & Gamble",
-   "price": 147.82,
-   "change": -0.59,
-   "changePct": -0.4,
+   "price": 150.59,
+   "change": 2.77,
+   "changePct": 1.87,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 146.39
-    },
     {
      "date": "2025-10-09",
      "close": 146.28
@@ -16247,7 +16243,7 @@
     },
     {
      "date": "2025-10-17",
-     "close": 147.07
+     "close": 147.08
     },
     {
      "date": "2025-10-20",
@@ -16379,7 +16375,7 @@
     },
     {
      "date": "2025-12-04",
-     "close": 142.19
+     "close": 142.2
     },
     {
      "date": "2025-12-05",
@@ -17220,20 +17216,20 @@
     {
      "date": "2026-10-07",
      "close": 147.82
+    },
+    {
+     "date": "2026-10-08",
+     "close": 150.59
     }
    ]
   },
   {
    "symbol": "NFLX",
    "name": "Netflix",
-   "price": 69.7,
-   "change": 1.01,
-   "changePct": 1.47,
+   "price": 71.57,
+   "change": 1.87,
+   "changePct": 2.68,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 121.43
-    },
     {
      "date": "2025-10-09",
      "close": 123.11
@@ -18233,20 +18229,20 @@
     {
      "date": "2026-10-07",
      "close": 69.7
+    },
+    {
+     "date": "2026-10-08",
+     "close": 71.57
     }
    ]
   },
   {
    "symbol": "CRM",
    "name": "Salesforce",
-   "price": 224.56,
-   "change": -0.43,
-   "changePct": -0.19,
+   "price": 227.8,
+   "change": 3.24,
+   "changePct": 1.44,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 238.41
-    },
     {
      "date": "2025-10-09",
      "close": 243.27
@@ -19246,20 +19242,20 @@
     {
      "date": "2026-10-07",
      "close": 224.56
+    },
+    {
+     "date": "2026-10-08",
+     "close": 227.8
     }
    ]
   },
   {
    "symbol": "AMD",
    "name": "AMD",
-   "price": 645.86,
-   "change": -3.56,
-   "changePct": -0.55,
+   "price": 620.68,
+   "change": -25.18,
+   "changePct": -3.9,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 235.56
-    },
     {
      "date": "2025-10-09",
      "close": 232.89
@@ -20259,20 +20255,20 @@
     {
      "date": "2026-10-07",
      "close": 645.86
+    },
+    {
+     "date": "2026-10-08",
+     "close": 620.68
     }
    ]
   },
   {
    "symbol": "DIS",
    "name": "Disney",
-   "price": 104.75,
-   "change": 0.72,
-   "changePct": 0.69,
+   "price": 107.02,
+   "change": 2.27,
+   "changePct": 2.17,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 110.29
-    },
     {
      "date": "2025-10-09",
      "close": 109.41
@@ -20371,7 +20367,7 @@
     },
     {
      "date": "2025-11-12",
-     "close": 114.99
+     "close": 114.98
     },
     {
      "date": "2025-11-13",
@@ -21272,20 +21268,20 @@
     {
      "date": "2026-10-07",
      "close": 104.75
+    },
+    {
+     "date": "2026-10-08",
+     "close": 107.02
     }
    ]
   },
   {
    "symbol": "KO",
    "name": "Coca-Cola",
-   "price": 85.82,
-   "change": -0.35,
-   "changePct": -0.41,
+   "price": 87.77,
+   "change": 1.95,
+   "changePct": 2.27,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 64.41
-    },
     {
      "date": "2025-10-09",
      "close": 64.65
@@ -22285,20 +22281,20 @@
     {
      "date": "2026-10-07",
      "close": 85.82
+    },
+    {
+     "date": "2026-10-08",
+     "close": 87.77
     }
    ]
   },
   {
    "symbol": "ABBV",
    "name": "AbbVie",
-   "price": 271.36,
-   "change": 4.67,
-   "changePct": 1.75,
+   "price": 272.42,
+   "change": 1.06,
+   "changePct": 0.39,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 224.28
-    },
     {
      "date": "2025-10-09",
      "close": 223.75
@@ -23298,20 +23294,20 @@
     {
      "date": "2026-10-07",
      "close": 271.36
+    },
+    {
+     "date": "2026-10-08",
+     "close": 272.42
     }
    ]
   },
   {
    "symbol": "PFE",
    "name": "Pfizer",
-   "price": 28.0,
-   "change": 0.5,
-   "changePct": 1.82,
+   "price": 27.82,
+   "change": -0.18,
+   "changePct": -0.64,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 24.0
-    },
     {
      "date": "2025-10-09",
      "close": 23.59
@@ -24311,20 +24307,20 @@
     {
      "date": "2026-10-07",
      "close": 28.0
+    },
+    {
+     "date": "2026-10-08",
+     "close": 27.82
     }
    ]
   },
   {
    "symbol": "MRK",
    "name": "Merck",
-   "price": 142.79,
-   "change": 0.85,
-   "changePct": 0.6,
+   "price": 142.38,
+   "change": -0.41,
+   "changePct": -0.29,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 83.94
-    },
     {
      "date": "2025-10-09",
      "close": 85.0
@@ -25324,20 +25320,20 @@
     {
      "date": "2026-10-07",
      "close": 142.79
+    },
+    {
+     "date": "2026-10-08",
+     "close": 142.38
     }
    ]
   },
   {
    "symbol": "WMT",
    "name": "Walmart",
-   "price": 108.16,
-   "change": 0.96,
-   "changePct": 0.9,
+   "price": 110.56,
+   "change": 2.4,
+   "changePct": 2.22,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 102.04
-    },
     {
      "date": "2025-10-09",
      "close": 100.92
@@ -26337,20 +26333,20 @@
     {
      "date": "2026-10-07",
      "close": 108.16
+    },
+    {
+     "date": "2026-10-08",
+     "close": 110.56
     }
    ]
   },
   {
    "symbol": "BAC",
    "name": "Bank of America",
-   "price": 53.52,
-   "change": -0.57,
-   "changePct": -1.05,
+   "price": 53.61,
+   "change": 0.09,
+   "changePct": 0.17,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 48.8
-    },
     {
      "date": "2025-10-09",
      "close": 48.75
@@ -27350,20 +27346,20 @@
     {
      "date": "2026-10-07",
      "close": 53.52
+    },
+    {
+     "date": "2026-10-08",
+     "close": 53.61
     }
    ]
   },
   {
    "symbol": "ORCL",
    "name": "Oracle",
-   "price": 143.56,
-   "change": -1.21,
-   "changePct": -0.84,
+   "price": 135.69,
+   "change": -7.87,
+   "changePct": -5.48,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 285.38
-    },
     {
      "date": "2025-10-09",
      "close": 294.12
@@ -28363,20 +28359,20 @@
     {
      "date": "2026-10-07",
      "close": 143.56
+    },
+    {
+     "date": "2026-10-08",
+     "close": 135.69
     }
    ]
   },
   {
    "symbol": "ADBE",
    "name": "Adobe",
-   "price": 232.77,
-   "change": -5.35,
-   "changePct": -2.25,
+   "price": 241.05,
+   "change": 8.28,
+   "changePct": 3.56,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 348.77
-    },
     {
      "date": "2025-10-09",
      "close": 347.47
@@ -29376,20 +29372,20 @@
     {
      "date": "2026-10-07",
      "close": 232.77
+    },
+    {
+     "date": "2026-10-08",
+     "close": 241.05
     }
    ]
   },
   {
    "symbol": "QCOM",
    "name": "Qualcomm",
-   "price": 177.12,
-   "change": -3.91,
-   "changePct": -2.16,
+   "price": 176.01,
+   "change": -1.11,
+   "changePct": -0.63,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 164.35
-    },
     {
      "date": "2025-10-09",
      "close": 162.28
@@ -30389,6 +30385,10 @@
     {
      "date": "2026-10-07",
      "close": 177.12
+    },
+    {
+     "date": "2026-10-08",
+     "close": 176.01
     }
    ]
   }

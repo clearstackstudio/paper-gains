@@ -1,18 +1,14 @@
 {
- "generated": "2026-10-07T21:39:03.087668+00:00",
+ "generated": "2026-10-08T21:39:10.295114+00:00",
  "disclaimer": "Delayed/indicative data for education only. Not financial advice.",
  "indices": [
   {
    "symbol": "^GSPC",
    "name": "S&P 500",
-   "price": 7801.77,
-   "change": -17.16,
-   "changePct": -0.22,
+   "price": 7765.36,
+   "change": -36.41,
+   "changePct": -0.47,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 6753.72
-    },
     {
      "date": "2025-10-09",
      "close": 6735.11
@@ -1012,20 +1008,20 @@
     {
      "date": "2026-10-07",
      "close": 7801.77
+    },
+    {
+     "date": "2026-10-08",
+     "close": 7765.36
     }
    ]
   },
   {
    "symbol": "^IXIC",
    "name": "Nasdaq",
-   "price": 27538.69,
-   "change": -61.1,
-   "changePct": -0.22,
+   "price": 27193.34,
+   "change": -345.35,
+   "changePct": -1.25,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 23043.38
-    },
     {
      "date": "2025-10-09",
      "close": 23024.63
@@ -2025,20 +2021,20 @@
     {
      "date": "2026-10-07",
      "close": 27538.69
+    },
+    {
+     "date": "2026-10-08",
+     "close": 27193.34
     }
    ]
   },
   {
    "symbol": "^DJI",
    "name": "Dow Jones",
-   "price": 51179.87,
-   "change": -341.41,
-   "changePct": -0.66,
+   "price": 51231.64,
+   "change": 51.77,
+   "changePct": 0.1,
    "history": [
-    {
-     "date": "2025-10-08",
-     "close": 46601.78
-    },
     {
      "date": "2025-10-09",
      "close": 46358.42
@@ -3038,6 +3034,10 @@
     {
      "date": "2026-10-07",
      "close": 51179.87
+    },
+    {
+     "date": "2026-10-08",
+     "close": 51231.64
     }
    ]
   }
