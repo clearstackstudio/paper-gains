@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { stocks, latestDate } from "../lib/market";
 import { fmtPrice, fmtPct, gainClass } from "../lib/format";
+import { useLiveQuotes, LiveBadge } from "../components/live-quotes";
 import Sparkline from "../components/sparkline";
 
 type SortKey = "symbol" | "name" | "price" | "changePct";
@@ -13,24 +14,28 @@ export default function StocksPage() {
   const [query, setQuery] = useState("");
   const [sortKey, setSortKey] = useState<SortKey>("changePct");
   const [sortDir, setSortDir] = useState<SortDir>("desc");
+  const { quotes, status } = useLiveQuotes();
 
   const rows = useMemo(() => {
+    const listed = stocks.map((s) => {
+      const lq = quotes[s.symbol];
+      return lq ? { ...s, price: lq.price, changePct: lq.changePct } : s;
+    });
     const q = query.trim().toLowerCase();
     const filtered = q
-      ? stocks.filter(
+      ? listed.filter(
           (s) =>
             s.symbol.toLowerCase().includes(q) || s.name.toLowerCase().includes(q)
         )
-      : [...stocks];
-    filtered.sort((a, b) => {
+      : [...listed];
+    return filtered.sort((a, b) => {
       const av = a[sortKey];
       const bv = b[sortKey];
       const cmp =
         typeof av === "string" ? av.localeCompare(bv as string) : (av as number) - (bv as number);
       return sortDir === "asc" ? cmp : -cmp;
     });
-    return filtered;
-  }, [query, sortKey, sortDir]);
+  }, [query, sortKey, sortDir, quotes]);
 
   function toggleSort(key: SortKey) {
     if (key === sortKey) {
@@ -66,6 +71,9 @@ export default function StocksPage() {
         30 liquid large-caps across sectors — the same universe the pick'em game draws
         from. Data as of {latestDate}. Listing a stock here is not a recommendation.
       </p>
+      <div className="mt-3">
+        <LiveBadge status={status} />
+      </div>
 
       <div className="mt-6">
         <input
