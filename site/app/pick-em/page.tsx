@@ -151,7 +151,7 @@ export default function PickEm() {
         if (p.grade.outperformance > 0) wins++;
       }
     }
-    return { total, graded, wins };
+    return { total, graded, wins, winPct: graded ? Math.round((wins / graded) * 100) : 0 };
   }, [modelWeeks]);
 
   const thisGrade: WeekGrade | null =
@@ -375,9 +375,9 @@ export default function PickEm() {
           The house model plays by your rules: 5 stocks picked at the previous
           Friday&rsquo;s close — the 5 with the best trailing 20-trading-day
           returns — held one week and graded against the S&P 500. No human
-          override, no lookahead. Backtested over 44 weeks it beat the index 41%
-          of the time: no edge demonstrated. It&rsquo;s here to prove the
-          site&rsquo;s point, not to give advice.
+          override, no lookahead. Backtested over {modelSeason.graded} weeks it
+          beat the index {modelSeason.winPct}% of the time: no edge demonstrated.
+          It&rsquo;s here to prove the site&rsquo;s point, not to give advice.
         </p>
 
         <h3 className="mt-8 font-display text-2xl font-semibold uppercase tracking-wide">

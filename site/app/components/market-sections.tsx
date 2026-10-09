@@ -89,11 +89,11 @@ export default function MarketSections({
 
   return (
     <div>
-      <div className="mt-10 flex items-baseline justify-between">
+      <div className="mt-10 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2">
         <h2 className="font-display text-2xl font-semibold uppercase tracking-wide">
           Market indices
         </h2>
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-3">
           <LiveBadge status={status as LiveStatus} />
           <span className="text-xs text-zinc-500">Data as of {latestDate}</span>
         </div>
