@@ -56,7 +56,16 @@ export function useLiveQuotes() {
     }
 
     poll();
-    if (marketOpenPT()) timer = setInterval(poll, 60_000);
+    // Always run the scheduler: a tab loaded before the open must start
+    // polling at 6:30am without a reload, and the badge must flip back
+    // to "closed" after 1pm.
+    timer = setInterval(() => {
+      if (!marketOpenPT()) {
+        setStatus((s) => (s === "live" ? "closed" : s));
+        return;
+      }
+      poll();
+    }, 60_000);
     return () => {
       alive = false;
       if (timer) clearInterval(timer);
