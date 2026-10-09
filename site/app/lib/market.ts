@@ -29,6 +29,15 @@ export type Instrument = {
   changePct: number;
   history: HistPoint[];
   moneyFlow?: MoneyFlow;
+  fundamentals?: Fundamentals;
+};
+
+/** Fundamentals snapshot (descriptive, not predictive). Computed monthly
+ *  in bin/compute_fundamentals.py from SEC EDGAR companyfacts. */
+export type Fundamentals = {
+  earningsYield: number | null; // TTM diluted EPS / price; null if unavailable
+  roe: number | null; // TTM net income / shareholders' equity; null if stale/missing
+  asOf: string; // e.g. "12 months ended Jun 2026"
 };
 
 type MarketFile = {

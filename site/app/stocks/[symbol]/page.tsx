@@ -4,6 +4,7 @@ import { bySymbol, stocks, latestDate, yearRange, yearReturn } from "../../lib/m
 import { fmtPrice, fmtPct, fmtDelta, gainClass } from "../../lib/format";
 import PriceChart from "../../components/price-chart";
 import MoneyFlowPanel from "../../components/money-flow";
+import FundamentalsPanel from "../../components/fundamentals";
 
 export function generateStaticParams() {
   return stocks.map((s) => ({ symbol: s.symbol }));
@@ -55,6 +56,12 @@ export default function StockDetail({ params }: { params: { symbol: string } }) 
       {s.moneyFlow && (
         <div className="mt-4">
           <MoneyFlowPanel mf={s.moneyFlow} />
+        </div>
+      )}
+
+      {s.fundamentals && (
+        <div className="mt-4">
+          <FundamentalsPanel f={s.fundamentals} />
         </div>
       )}
 
