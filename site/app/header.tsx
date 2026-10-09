@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const links = [
   { href: "/", label: "Markets" },
@@ -8,6 +11,8 @@ const links = [
 ];
 
 export default function Header() {
+  const pathname = usePathname();
+
   return (
     <header className="sticky top-0 z-40 border-b border-white/10 bg-stone-950/90 backdrop-blur light:border-zinc-200 light:bg-white/90">
       <div className="mx-auto flex h-14 w-full max-w-6xl items-center justify-between px-4 sm:px-6">
@@ -20,16 +25,31 @@ export default function Header() {
             Mock<span className="text-emerald-400 light:text-emerald-600">folio</span>
           </span>
         </Link>
-        <nav className="flex items-center gap-1 text-sm font-medium">
-          {links.map((l) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              className="rounded-lg px-2.5 py-1.5 text-zinc-400 transition hover:bg-white/5 hover:text-zinc-100 light:text-zinc-600 light:hover:bg-zinc-100 light:hover:text-zinc-900"
-            >
-              {l.label}
-            </Link>
-          ))}
+        <nav className="flex items-center gap-1 text-sm font-medium" aria-label="Primary">
+          {links.map((l) => {
+            const active =
+              l.href === "/" ? pathname === "/" : pathname.startsWith(l.href);
+            return (
+              <Link
+                key={l.href}
+                href={l.href}
+                aria-current={active ? "page" : undefined}
+                className={`relative rounded-lg px-2.5 py-1.5 transition ${
+                  active
+                    ? "font-semibold text-zinc-100 light:text-zinc-900"
+                    : "text-zinc-400 hover:bg-white/5 hover:text-zinc-100 light:text-zinc-600 light:hover:bg-zinc-100 light:hover:text-zinc-900"
+                }`}
+              >
+                {l.label}
+                {active && (
+                  <span
+                    aria-hidden="true"
+                    className="absolute inset-x-2.5 bottom-0.5 h-0.5 rounded-full bg-emerald-400 light:bg-emerald-600"
+                  />
+                )}
+              </Link>
+            );
+          })}
         </nav>
       </div>
     </header>

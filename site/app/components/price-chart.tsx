@@ -23,13 +23,11 @@ export default function PriceChart({ history }: { history: HistPoint[] }) {
       const v = min + (span * i) / 3;
       return { v, y: y(v) };
     });
+    const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     const lbl = (d: string) => {
       const [yy, mm] = d.split("-").map(Number);
-      return new Date(Date.UTC(yy, mm - 1, 1)).toLocaleDateString("en-US", {
-        month: "short",
-        year: "2-digit",
-        timeZone: "UTC",
-      });
+      // "Oct ’25" — unambiguous month + year (never bare "Oct 25", which reads as a day).
+      return `${MONTHS[mm - 1]} ’${String(yy).slice(2)}`;
     };
     return {
       line: `M${pts.join(" L")}`,

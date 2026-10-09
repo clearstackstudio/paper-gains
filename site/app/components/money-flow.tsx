@@ -6,10 +6,18 @@ export function cmfTone(cmf: number): string {
   return "text-zinc-400 light:text-zinc-500";
 }
 
-function cmfLabel(cmf: number): string {
+export function cmfLabel(cmf: number): string {
   if (cmf > 0.1) return "Buying pressure";
   if (cmf < -0.1) return "Selling pressure";
   return "Neutral";
+}
+
+export function cmfBadgeCls(cmf: number): string {
+  if (cmf > 0.1)
+    return "border-emerald-400/30 bg-emerald-400/10 text-emerald-300 light:border-emerald-600/30 light:bg-emerald-600/10 light:text-emerald-700";
+  if (cmf < -0.1)
+    return "border-red-400/30 bg-red-400/10 text-red-300 light:border-red-600/30 light:bg-red-600/10 light:text-red-700";
+  return "border-white/10 bg-white/5 text-zinc-400 light:border-zinc-300 light:bg-zinc-100 light:text-zinc-600";
 }
 
 function obvMeta(trend: MoneyFlow["obvTrend"]): { arrow: string; label: string; cls: string } {
@@ -50,15 +58,19 @@ export default function MoneyFlowPanel({ mf }: { mf: MoneyFlow }) {
           </div>
           <div className="relative mt-3 h-2 rounded-full bg-gradient-to-r from-red-500/70 via-zinc-600 to-emerald-500/70">
             <div
-              className="absolute top-1/2 h-4 w-1 -translate-y-1/2 rounded bg-white shadow"
-              style={{ left: `calc(${markerPct.toFixed(1)}% - 2px)` }}
+              className="absolute top-1/2 left-1/2 h-3 w-px -translate-x-1/2 -translate-y-1/2 bg-white/60"
+              aria-hidden
+            />
+            <div
+              className="absolute top-1/2 h-5 w-1.5 -translate-y-1/2 rounded-full bg-white shadow ring-1 ring-black/40"
+              style={{ left: `calc(${markerPct.toFixed(1)}% - 3px)` }}
               aria-hidden
             />
           </div>
-          <div className="mt-1 flex justify-between text-[10px] text-zinc-500">
-            <span>-1 selling</span>
-            <span>0</span>
-            <span>+1 buying</span>
+          <div className="mt-1.5 flex justify-between text-[11px] font-medium text-zinc-500">
+            <span>−1 · selling</span>
+            <span>0 · neutral</span>
+            <span>+1 · buying</span>
           </div>
           <p className="mt-2 text-xs leading-relaxed text-zinc-400 light:text-zinc-600">
             Chaikin Money Flow: whether buying or selling pressure dominated the
@@ -97,6 +109,23 @@ export default function MoneyFlowPanel({ mf }: { mf: MoneyFlow }) {
             }`}
           >
             {mf.volRatio.toFixed(1)}× average
+          </div>
+          <div className="relative mt-3 h-2 rounded-full bg-zinc-700/50 light:bg-zinc-200">
+            <div
+              className="absolute inset-y-0 left-0 rounded-full bg-amber-400/70 light:bg-amber-500/70"
+              style={{ width: `${Math.min(100, (mf.volRatio / 3) * 100).toFixed(1)}%` }}
+              aria-hidden
+            />
+            <div
+              className="absolute top-1/2 h-4 w-px -translate-y-1/2 bg-zinc-300 light:bg-zinc-500"
+              style={{ left: "33.3%" }}
+              aria-hidden
+            />
+          </div>
+          <div className="mt-1.5 flex justify-between text-[11px] font-medium text-zinc-500">
+            <span>0</span>
+            <span>1× avg</span>
+            <span>3×+</span>
           </div>
           <p className="mt-2 text-xs leading-relaxed text-zinc-400 light:text-zinc-600">
             {mf.unusualVolume

@@ -6,7 +6,7 @@ import { stocks, latestDate } from "../lib/market";
 import { fmtPrice, fmtPct, gainClass } from "../lib/format";
 import { useLiveQuotes, LiveBadge } from "../components/live-quotes";
 import Sparkline from "../components/sparkline";
-import { cmfTone } from "../components/money-flow";
+import { cmfLabel, cmfBadgeCls } from "../components/money-flow";
 
 type SortKey = "symbol" | "name" | "price" | "changePct" | "cmf";
 type SortDir = "asc" | "desc";
@@ -97,6 +97,10 @@ export default function StocksPage() {
 
       <div className="mt-4 overflow-x-auto rounded-2xl border border-white/10 light:border-zinc-200">
         <table className="w-full min-w-[800px] text-left text-sm">
+          <caption className="px-1 pb-2 text-left text-xs text-zinc-500 light:text-zinc-500">
+            Money flow = Chaikin Money Flow over 20 trading days: whether buying
+            or selling pressure dominated. Descriptive only — not a prediction.
+          </caption>
           <thead>
             <tr className="border-b border-white/10 bg-stone-900/60 text-xs text-zinc-500 light:border-zinc-200 light:bg-zinc-100">
               {th("Symbol", "symbol")}
@@ -129,8 +133,20 @@ export default function StocksPage() {
                 <td className={`tnum px-4 py-3 text-right font-bold ${gainClass(s.changePct)}`}>
                   {fmtPct(s.changePct)}
                 </td>
-                <td className={`tnum px-4 py-3 text-right font-semibold ${s.cmf != null ? cmfTone(s.cmf) : "text-zinc-500"}`}>
-                  {s.cmf != null ? (s.cmf >= 0 ? "+" : "") + s.cmf.toFixed(2) : "—"}
+                <td className="px-4 py-3 text-right">
+                  {s.cmf != null ? (
+                    <span
+                      className={`inline-flex items-center gap-1.5 whitespace-nowrap rounded-full border px-2.5 py-0.5 text-xs font-bold ${cmfBadgeCls(s.cmf)}`}
+                      title={`Chaikin Money Flow (20d): ${cmfLabel(s.cmf)}`}
+                    >
+                      {cmfLabel(s.cmf)}
+                      <span className="tnum font-semibold opacity-80">
+                        {(s.cmf >= 0 ? "+" : "") + s.cmf.toFixed(2)}
+                      </span>
+                    </span>
+                  ) : (
+                    <span className="text-zinc-600">—</span>
+                  )}
                 </td>
                 <td className="px-4 py-3">
                   <div className="flex justify-end">
