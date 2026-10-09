@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { bySymbol, stocks, latestDate, yearRange, yearReturn } from "../../lib/market";
 import { fmtPrice, fmtPct, fmtDelta, gainClass } from "../../lib/format";
 import PriceChart from "../../components/price-chart";
+import MoneyFlowPanel from "../../components/money-flow";
 
 export function generateStaticParams() {
   return stocks.map((s) => ({ symbol: s.symbol }));
@@ -50,6 +51,12 @@ export default function StockDetail({ params }: { params: { symbol: string } }) 
           <PriceChart history={s.history} />
         </div>
       </div>
+
+      {s.moneyFlow && (
+        <div className="mt-4">
+          <MoneyFlowPanel mf={s.moneyFlow} />
+        </div>
+      )}
 
       <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3">
         {stats.map((st) => (

@@ -50,14 +50,35 @@ def fetch_daily(symbol: str) -> dict | None:
     try:
         res = d["chart"]["result"][0]
         ts = res["timestamp"]
-        closes = res["indicators"]["quote"][0]["close"]
+        q = res["indicators"]["quote"][0]
+        closes = q["close"]
+        opens = q.get("open") or []
+        highs = q.get("high") or []
+        lows = q.get("low") or []
+        vols = q.get("volume") or []
         adj = res["indicators"].get("adjclose", [{}])[0].get("adjclose")
         prices = adj or closes
-        hist = [
-            {"date": datetime.fromtimestamp(t, tz=timezone.utc).strftime("%Y-%m-%d"),
-             "close": round(c, 2)}
-            for t, c in zip(ts, prices) if c is not None
-        ]
+        hist = []
+        for i, (t, c) in enumerate(zip(ts, prices)):
+            if c is None:
+                continue
+            pt = {"date": datetime.fromtimestamp(t, tz=timezone.utc).strftime("%Y-%m-%d"),
+                  "close": round(c, 2)}
+            # Full OHLCV for money-flow indicators; backward compatible —
+            # existing readers only need date/close.
+            o = opens[i] if i < len(opens) else None
+            h = highs[i] if i < len(highs) else None
+            l = lows[i] if i < len(lows) else None
+            v = vols[i] if i < len(vols) else None
+            if o is not None:
+                pt["open"] = round(o, 2)
+            if h is not None:
+                pt["high"] = round(h, 2)
+            if l is not None:
+                pt["low"] = round(l, 2)
+            if v is not None:
+                pt["volume"] = int(v)
+            hist.append(pt)
         if len(hist) < 2:
             return None
         price = hist[-1]["close"]

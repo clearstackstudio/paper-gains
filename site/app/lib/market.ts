@@ -1,7 +1,25 @@
 import marketFile from "../../data/market.json";
 import universeFile from "../../data/universe.json";
 
-export type HistPoint = { date: string; close: number };
+export type HistPoint = {
+  date: string;
+  close: number;
+  open?: number;
+  high?: number;
+  low?: number;
+  volume?: number;
+};
+
+/** Money-flow indicators (descriptive, not predictive). Computed nightly
+ *  in bin/compute_money_flow.py from 20 trading days of OHLCV. */
+export type MoneyFlow = {
+  cmf20: number; // Chaikin Money Flow, [-1, 1]; + = buying pressure dominated
+  obvTrend: "rising" | "falling" | "flat"; // On-Balance Volume vs 20d average
+  obvVsAvgPct: number; // OBV distance from its 20d average, %
+  volRatio: number; // latest volume / 20d average volume
+  unusualVolume: boolean; // volRatio >= 1.5
+  asOf: string; // latest trading date in the window (YYYY-MM-DD)
+};
 
 export type Instrument = {
   symbol: string;
@@ -10,6 +28,7 @@ export type Instrument = {
   change: number;
   changePct: number;
   history: HistPoint[];
+  moneyFlow?: MoneyFlow;
 };
 
 type MarketFile = {

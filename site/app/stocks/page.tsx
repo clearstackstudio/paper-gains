@@ -6,8 +6,9 @@ import { stocks, latestDate } from "../lib/market";
 import { fmtPrice, fmtPct, gainClass } from "../lib/format";
 import { useLiveQuotes, LiveBadge } from "../components/live-quotes";
 import Sparkline from "../components/sparkline";
+import { cmfTone } from "../components/money-flow";
 
-type SortKey = "symbol" | "name" | "price" | "changePct";
+type SortKey = "symbol" | "name" | "price" | "changePct" | "cmf";
 type SortDir = "asc" | "desc";
 
 export default function StocksPage() {
@@ -19,7 +20,8 @@ export default function StocksPage() {
   const rows = useMemo(() => {
     const listed = stocks.map((s) => {
       const lq = quotes[s.symbol];
-      return lq ? { ...s, price: lq.price, changePct: lq.changePct } : s;
+      const base = lq ? { ...s, price: lq.price, changePct: lq.changePct } : s;
+      return { ...base, cmf: s.moneyFlow?.cmf20 ?? null };
     });
     const q = query.trim().toLowerCase();
     const filtered = q
@@ -29,6 +31,14 @@ export default function StocksPage() {
         )
       : [...listed];
     return filtered.sort((a, b) => {
+      if (sortKey === "cmf") {
+        // nulls always last, in either direction
+        if (a.cmf == null && b.cmf == null) return 0;
+        if (a.cmf == null) return 1;
+        if (b.cmf == null) return -1;
+        const d = a.cmf - b.cmf;
+        return sortDir === "asc" ? d : -d;
+      }
       const av = a[sortKey];
       const bv = b[sortKey];
       const cmp =
@@ -86,13 +96,14 @@ export default function StocksPage() {
       </div>
 
       <div className="mt-4 overflow-x-auto rounded-2xl border border-white/10 light:border-zinc-200">
-        <table className="w-full min-w-[720px] text-left text-sm">
+        <table className="w-full min-w-[800px] text-left text-sm">
           <thead>
             <tr className="border-b border-white/10 bg-stone-900/60 text-xs text-zinc-500 light:border-zinc-200 light:bg-zinc-100">
               {th("Symbol", "symbol")}
               {th("Company", "name")}
               {th("Price", "price", "text-right")}
               {th("Day change", "changePct", "text-right")}
+              {th("Money flow", "cmf", "text-right")}
               <th className="px-4 py-3 text-right text-xs font-semibold uppercase tracking-wider">
                 1y trend
               </th>
@@ -117,6 +128,9 @@ export default function StocksPage() {
                 <td className="tnum px-4 py-3 text-right font-semibold">${fmtPrice(s.price)}</td>
                 <td className={`tnum px-4 py-3 text-right font-bold ${gainClass(s.changePct)}`}>
                   {fmtPct(s.changePct)}
+                </td>
+                <td className={`tnum px-4 py-3 text-right font-semibold ${s.cmf != null ? cmfTone(s.cmf) : "text-zinc-500"}`}>
+                  {s.cmf != null ? (s.cmf >= 0 ? "+" : "") + s.cmf.toFixed(2) : "—"}
                 </td>
                 <td className="px-4 py-3">
                   <div className="flex justify-end">
