@@ -8,6 +8,7 @@ const links = [
   { href: "/", label: "Markets" },
   { href: "/stocks", label: "Stocks" },
   { href: "/pick-em", label: "Pick'em" },
+  { href: "/wild-day", label: "Wild Day" },
   { href: "/disclaimer", label: "Disclaimer" },
 ];
 
