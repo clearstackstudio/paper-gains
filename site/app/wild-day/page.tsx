@@ -157,6 +157,19 @@ export default function WildDayPage() {
             on {wd.model_info.train_rows.toLocaleString()} training days
             (expanding window from 2010, refit monthly).
           </p>
+          {p.for_date === "2026-10-14" && (
+            <p className="mt-4 rounded-xl border border-amber-400/25 bg-amber-400/[0.06] px-4 py-3 text-sm leading-relaxed text-zinc-300 light:bg-amber-50 light:text-zinc-700">
+              <strong>Heads up:</strong> {prettyDate(p.for_date)} is a CPI
+              release day — the September inflation report lands at 8:30 AM
+              ET, before the open. Scheduled economic-report days like CPI
+              and the monthly jobs report are{" "}
+              <strong>not yet a model input</strong> (only scheduled Fed
+              announcement days are flagged), so this number does not account
+              for the release. We are testing whether report days run wilder
+              than the model expects, and we will publish the result either
+              way.
+            </p>
+          )}
         </div>
       ) : (
         <div className="mt-8 rounded-2xl border border-white/10 p-6 light:border-zinc-200">

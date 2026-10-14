@@ -81,6 +81,13 @@ export default function Home() {
                 moves is a pattern. This probability is published every evening
                 and graded in public the next day.
               </p>
+              {wildPrediction.for_date === "2026-10-14" && (
+                <p className="mt-3 max-w-xl text-sm text-amber-300/90 light:text-amber-700">
+                  Heads up: tomorrow is a CPI release day (report lands 8:30
+                  AM ET). Scheduled economic-report days aren&apos;t a model
+                  input yet — only Fed announcement days are flagged.
+                </p>
+              )}
             </div>
             <Link
               href="/wild-day"
