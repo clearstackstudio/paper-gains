@@ -246,6 +246,16 @@ def main() -> int:
     if prev_asof == str(data_asof.date()) and state.get("prediction"):
         print(f"already up to date (data through {data_asof.date()})")
         return 0
+    if prev_asof and str(data_asof.date()) < prev_asof:
+        # Rollback guard (added 2026-10-14, Bryant approved): the price
+        # feed returned data OLDER than what is already published — seen
+        # 2026-10-13 when Yahoo's SPY adjusted close lagged a day and a
+        # run nearly re-issued a prediction for a day already past,
+        # overwriting the stored call. Fail loudly, write nothing.
+        print(f"ERROR: data regressed — feed ends {data_asof.date()}, "
+              f"but published state is already through {prev_asof}. "
+              "Refusing to publish.")
+        return 2
 
     # 1) Grade the outstanding prediction: the realized "tomorrow" is the
     #    first trading day after the day it was issued.
