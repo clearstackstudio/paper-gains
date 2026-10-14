@@ -165,9 +165,10 @@ export default function WildDayPage() {
               and the monthly jobs report are{" "}
               <strong>not yet a model input</strong> (only scheduled Fed
               announcement days are flagged), so this number does not account
-              for the release. We are testing whether report days run wilder
-              than the model expects, and we will publish the result either
-              way.
+              for the release. We tested whether that matters on 2016–2026
+              data: CPI days were no wilder than the model expected (21% of
+              them came in wild, against 24% predicted), so the flag stays
+              out — the diagnostic is published with the study files.
             </p>
           )}
         </div>
