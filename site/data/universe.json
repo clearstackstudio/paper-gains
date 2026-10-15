@@ -2025,6 +2025,11 @@
     "volRatio": 1.31,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0246,
+    "roe": 1.1616,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -4050,6 +4055,11 @@
     "volRatio": 0.95,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0311,
+    "roe": 0.2799,
+    "asOf": "12 months ended Mar 2026"
    }
   },
   {
@@ -6075,6 +6085,11 @@
     "volRatio": 1.1,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0327,
+    "roe": 0.7701,
+    "asOf": "12 months ended Jul 2026"
    }
   },
   {
@@ -8100,6 +8115,11 @@
     "volRatio": 0.93,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0479,
+    "roe": 0.2398,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -10125,6 +10145,11 @@
     "volRatio": 0.72,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0336,
+    "roe": 0.2437,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -12150,6 +12175,11 @@
     "volRatio": 1.05,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0558,
+    "roe": 0.3715,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -14175,6 +14205,11 @@
     "volRatio": 0.89,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0032,
+    "roe": 0.0476,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -18225,6 +18260,11 @@
     "volRatio": 1.11,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": null,
+    "roe": 0.1055,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -20250,6 +20290,11 @@
     "volRatio": 1.19,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0714,
+    "roe": 0.1789,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -22275,6 +22320,11 @@
     "volRatio": 1.19,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": null,
+    "roe": null,
+    "asOf": "12 months ended Mar 2026"
    }
   },
   {
@@ -26325,6 +26375,11 @@
     "volRatio": 1.36,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0487,
+    "roe": null,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -30375,6 +30430,11 @@
     "volRatio": 1.29,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0186,
+    "roe": 0.2271,
+    "asOf": "12 months ended May 2026"
    }
   },
   {
@@ -32400,6 +32460,11 @@
     "volRatio": 0.81,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0551,
+    "roe": 0.9753,
+    "asOf": "12 months ended Aug 2026"
    }
   },
   {
@@ -34425,6 +34490,11 @@
     "volRatio": 1.33,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0441,
+    "roe": null,
+    "asOf": "12 months ended Mar 2026"
    }
   },
   {
@@ -36450,6 +36520,11 @@
     "volRatio": 1.05,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.1221,
+    "roe": 0.4761,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -38475,6 +38550,11 @@
     "volRatio": 0.61,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.046,
+    "roe": 0.2503,
+    "asOf": "12 months ended Jul 2026"
    }
   },
   {
@@ -40500,6 +40580,11 @@
     "volRatio": 1.01,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0061,
+    "roe": 0.0862,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -42525,6 +42610,11 @@
     "volRatio": 0.91,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0646,
+    "roe": 0.114,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -44550,6 +44640,11 @@
     "volRatio": 0.9,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0373,
+    "roe": 0.4389,
+    "asOf": "12 months ended Apr 2026"
    }
   },
   {
@@ -46575,6 +46670,11 @@
     "volRatio": 1.17,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0125,
+    "roe": null,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -48600,6 +48700,11 @@
     "volRatio": 1.2,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0534,
+    "roe": 0.1044,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -50625,6 +50730,11 @@
     "volRatio": 0.97,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0123,
+    "roe": 0.1106,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -52650,6 +52760,11 @@
     "volRatio": 1.15,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0269,
+    "roe": 0.2531,
+    "asOf": "12 months ended Jul 2026"
    }
   },
   {
@@ -54675,6 +54790,11 @@
     "volRatio": 2.79,
     "unusualVolume": true,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0833,
+    "roe": 0.1106,
+    "asOf": "12 months ended Jun 2026"
    }
   },
   {
@@ -56700,6 +56820,11 @@
     "volRatio": 1.67,
     "unusualVolume": true,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0455,
+    "roe": 0.2627,
+    "asOf": "12 months ended Aug 2026"
    }
   },
   {
@@ -58725,6 +58850,11 @@
     "volRatio": 0.74,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0733,
+    "roe": 0.612,
+    "asOf": "12 months ended Aug 2026"
    }
   },
   {
@@ -60750,6 +60880,11 @@
     "volRatio": 0.84,
     "unusualVolume": false,
     "asOf": "2026-10-14"
+   },
+   "fundamentals": {
+    "earningsYield": 0.0809,
+    "roe": null,
+    "asOf": "12 months ended Jun 2026"
    }
   }
  ]
