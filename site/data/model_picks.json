@@ -1,6 +1,6 @@
 {
  "strategy": "Top-5 trailing 20-trading-day momentum: each week the model buys the 5 stocks with the best 20-trading-day return as of the previous Friday's close and holds them one week. Mechanical rule, no human override, no lookahead.",
- "generated": "2026-10-12T03:00:03.645781+00:00",
+ "generated": "2026-10-19T03:00:26.835103+00:00",
  "weeks": {
   "2025-W46": {
    "picks": [
@@ -491,6 +491,16 @@
     "NVDA"
    ],
    "picked_at": "2026-10-09"
+  },
+  "2026-W44": {
+   "picks": [
+    "WMT",
+    "COST",
+    "XOM",
+    "MA",
+    "V"
+   ],
+   "picked_at": "2026-10-16"
   }
  }
 }
