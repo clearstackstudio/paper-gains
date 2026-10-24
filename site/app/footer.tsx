@@ -33,7 +33,17 @@ export default function Footer() {
             Full disclaimer
           </Link>
           <span className="text-zinc-600 light:text-zinc-400">·</span>
-          <span className="text-zinc-600 light:text-zinc-400">Built as a personal project</span>
+          <span className="text-zinc-600 light:text-zinc-400">
+            Built as a personal project by{" "}
+            <a
+              href="https://weclearstack.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-zinc-400 underline decoration-zinc-600 underline-offset-2 transition hover:text-zinc-200 light:text-zinc-600 light:decoration-zinc-400 light:hover:text-zinc-900"
+            >
+              ClearStack Studio
+            </a>
+          </span>
         </div>
       </div>
     </footer>
