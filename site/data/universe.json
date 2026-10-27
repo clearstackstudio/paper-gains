@@ -1,22 +1,14 @@
 {
- "generated": "2026-10-26T21:39:10.126046+00:00",
+ "generated": "2026-10-27T21:39:06.808535+00:00",
  "disclaimer": "Delayed/indicative data for education only. Not financial advice.",
  "stocks": [
   {
    "symbol": "AAPL",
    "name": "Apple",
-   "price": 343.91,
-   "change": -3.82,
-   "changePct": -1.1,
+   "price": 347.1,
+   "change": 3.19,
+   "changePct": 0.93,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 267.82,
-     "open": 264.88,
-     "high": 269.12,
-     "low": 264.65,
-     "volume": 44888200
-    },
     {
      "date": "2025-10-28",
      "close": 268.01,
@@ -571,7 +563,7 @@
     },
     {
      "date": "2026-02-06",
-     "close": 277.37,
+     "close": 277.36,
      "open": 277.12,
      "high": 280.91,
      "low": 276.93,
@@ -2007,41 +1999,41 @@
      "open": 349.12,
      "high": 351.73,
      "low": 345.75,
-     "volume": 39496500
+     "volume": 39539700
     },
     {
      "date": "2026-10-26",
      "close": 343.91,
-     "open": 343.9,
+     "open": 343.92,
      "high": 347.09,
      "low": 341.03,
-     "volume": 42263954
+     "volume": 42743600
+    },
+    {
+     "date": "2026-10-27",
+     "close": 347.1,
+     "open": 343.17,
+     "high": 347.78,
+     "low": 342.39,
+     "volume": 39051747
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.047,
+    "cmf20": 0.032,
     "obvTrend": "rising",
-    "obvVsAvgPct": 3.3,
-    "volRatio": 1.08,
+    "obvVsAvgPct": 7.0,
+    "volRatio": 1.0,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "MSFT",
    "name": "Microsoft",
-   "price": 532.6,
-   "change": 8.09,
-   "changePct": 1.54,
+   "price": 531.33,
+   "change": -1.27,
+   "changePct": -0.24,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 527.18,
-     "open": 531.78,
-     "high": 534.58,
-     "low": 529.01,
-     "volume": 18734700
-    },
     {
      "date": "2025-10-28",
      "close": 537.65,
@@ -4037,36 +4029,36 @@
     {
      "date": "2026-10-26",
      "close": 532.6,
-     "open": 527.41,
+     "open": 527.4,
      "high": 533.25,
      "low": 521.69,
-     "volume": 18204186
+     "volume": 19021000
+    },
+    {
+     "date": "2026-10-27",
+     "close": 531.33,
+     "open": 532.35,
+     "high": 534.7,
+     "low": 528.33,
+     "volume": 19419705
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.094,
+    "cmf20": -0.104,
     "obvTrend": "rising",
-    "obvVsAvgPct": 69.2,
-    "volRatio": 0.9,
+    "obvVsAvgPct": 52.3,
+    "volRatio": 0.97,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "NVDA",
    "name": "NVIDIA",
-   "price": 216.0,
-   "change": 5.04,
-   "changePct": 2.39,
+   "price": 217.94,
+   "change": 1.94,
+   "changePct": 0.9,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 191.03,
-     "open": 189.99,
-     "high": 192.0,
-     "low": 188.43,
-     "volume": 153452700
-    },
     {
      "date": "2025-10-28",
      "close": 200.55,
@@ -6057,41 +6049,41 @@
      "open": 210.99,
      "high": 213.85,
      "low": 210.18,
-     "volume": 79987200
+     "volume": 80189800
     },
     {
      "date": "2026-10-26",
      "close": 216.0,
-     "open": 213.12,
+     "open": 213.11,
      "high": 217.75,
      "low": 212.61,
-     "volume": 90043857
+     "volume": 90829300
+    },
+    {
+     "date": "2026-10-27",
+     "close": 217.94,
+     "open": 218.3,
+     "high": 219.19,
+     "low": 215.53,
+     "volume": 84307573
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.255,
+    "cmf20": -0.197,
     "obvTrend": "falling",
-    "obvVsAvgPct": -29.4,
-    "volRatio": 0.88,
+    "obvVsAvgPct": -30.2,
+    "volRatio": 0.83,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "AMZN",
    "name": "Amazon",
-   "price": 249.09,
-   "change": 1.09,
-   "changePct": 0.44,
+   "price": 253.1,
+   "change": 4.01,
+   "changePct": 1.61,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 226.97,
-     "open": 227.66,
-     "high": 228.4,
-     "low": 225.54,
-     "volume": 38267000
-    },
     {
      "date": "2025-10-28",
      "close": 229.25,
@@ -8082,41 +8074,41 @@
      "open": 248.85,
      "high": 250.01,
      "low": 246.45,
-     "volume": 25518200
+     "volume": 25569000
     },
     {
      "date": "2026-10-26",
      "close": 249.09,
-     "open": 249.42,
+     "open": 249.47,
      "high": 250.79,
-     "low": 247.24,
-     "volume": 32080113
+     "low": 247.23,
+     "volume": 32696400
+    },
+    {
+     "date": "2026-10-27",
+     "close": 253.1,
+     "open": 250.35,
+     "high": 254.67,
+     "low": 248.71,
+     "volume": 33975762
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.043,
-    "obvTrend": "falling",
-    "obvVsAvgPct": -5.0,
-    "volRatio": 0.9,
+    "cmf20": -0.012,
+    "obvTrend": "rising",
+    "obvVsAvgPct": 1.2,
+    "volRatio": 0.95,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "META",
    "name": "Meta",
-   "price": 630.56,
-   "change": -12.06,
-   "changePct": -1.88,
+   "price": 620.19,
+   "change": -10.37,
+   "changePct": -1.64,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 748.28,
-     "open": 749.73,
-     "high": 755.75,
-     "low": 748.01,
-     "volume": 11321100
-    },
     {
      "date": "2025-10-28",
      "close": 748.9,
@@ -10107,41 +10099,41 @@
      "open": 638.18,
      "high": 648.04,
      "low": 633.27,
-     "volume": 14761500
+     "volume": 14791600
     },
     {
      "date": "2026-10-26",
      "close": 630.56,
-     "open": 637.89,
+     "open": 638.36,
      "high": 647.69,
-     "low": 627.82,
-     "volume": 30797210
+     "low": 627.8,
+     "volume": 30913600
+    },
+    {
+     "date": "2026-10-27",
+     "close": 620.19,
+     "open": 627.03,
+     "high": 628.46,
+     "low": 619.22,
+     "volume": 50659475
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.118,
+    "cmf20": -0.257,
     "obvTrend": "falling",
-    "obvVsAvgPct": -572.4,
-    "volRatio": 1.59,
+    "obvVsAvgPct": -366.7,
+    "volRatio": 2.44,
     "unusualVolume": true,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "GOOGL",
    "name": "Alphabet",
-   "price": 316.8,
-   "change": -3.41,
-   "changePct": -1.06,
+   "price": 320.58,
+   "change": 3.78,
+   "changePct": 1.19,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 268.57,
-     "open": 264.82,
-     "high": 270.14,
-     "low": 264.28,
-     "volume": 35235200
-    },
     {
      "date": "2025-10-28",
      "close": 266.78,
@@ -12132,7 +12124,7 @@
      "open": 321.15,
      "high": 324.53,
      "low": 320.18,
-     "volume": 17535800
+     "volume": 17569600
     },
     {
      "date": "2026-10-26",
@@ -12140,33 +12132,33 @@
      "open": 320.89,
      "high": 321.48,
      "low": 316.6,
-     "volume": 23863260
+     "volume": 23991800
+    },
+    {
+     "date": "2026-10-27",
+     "close": 320.58,
+     "open": 316.98,
+     "high": 323.88,
+     "low": 316.9,
+     "volume": 28434977
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.254,
+    "cmf20": -0.256,
     "obvTrend": "falling",
-    "obvVsAvgPct": -47.6,
-    "volRatio": 1.0,
+    "obvVsAvgPct": -37.0,
+    "volRatio": 1.17,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "TSLA",
    "name": "Tesla",
-   "price": 391.62,
-   "change": 19.4,
-   "changePct": 5.21,
+   "price": 407.46,
+   "change": 15.84,
+   "changePct": 4.04,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 452.42,
-     "open": 439.98,
-     "high": 460.16,
-     "low": 438.69,
-     "volume": 105867500
-    },
     {
      "date": "2025-10-28",
      "close": 460.55,
@@ -14157,41 +14149,41 @@
      "open": 373.2,
      "high": 377.32,
      "low": 365.27,
-     "volume": 34689700
+     "volume": 34763000
     },
     {
      "date": "2026-10-26",
      "close": 391.62,
-     "open": 383.97,
+     "open": 383.83,
      "high": 397.27,
-     "low": 383.84,
-     "volume": 52860669
+     "low": 383.73,
+     "volume": 53090200
+    },
+    {
+     "date": "2026-10-27",
+     "close": 407.46,
+     "open": 397.8,
+     "high": 408.45,
+     "low": 395.25,
+     "volume": 45019044
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.069,
-    "obvTrend": "falling",
-    "obvVsAvgPct": -2.0,
-    "volRatio": 1.43,
+    "cmf20": 0.149,
+    "obvTrend": "rising",
+    "obvVsAvgPct": 16.0,
+    "volRatio": 1.2,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "AVGO",
    "name": "Broadcom",
-   "price": 329.17,
-   "change": 7.49,
-   "changePct": 2.33,
+   "price": 342.33,
+   "change": 13.16,
+   "changePct": 4.0,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 359.38,
-     "open": 361.54,
-     "high": 362.75,
-     "low": 355.08,
-     "volume": 20065800
-    },
     {
      "date": "2025-10-28",
      "close": 370.22,
@@ -16182,41 +16174,41 @@
      "open": 321.5,
      "high": 327.7,
      "low": 320.23,
-     "volume": 15871100
+     "volume": 15917000
     },
     {
      "date": "2026-10-26",
      "close": 329.17,
-     "open": 324.45,
+     "open": 324.53,
      "high": 332.12,
-     "low": 323.3,
-     "volume": 18489189
+     "low": 323.25,
+     "volume": 18646700
+    },
+    {
+     "date": "2026-10-27",
+     "close": 342.33,
+     "open": 339.38,
+     "high": 345.67,
+     "low": 336.87,
+     "volume": 25480570
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.166,
+    "cmf20": -0.117,
     "obvTrend": "falling",
-    "obvVsAvgPct": -184.0,
-    "volRatio": 0.86,
+    "obvVsAvgPct": -2326.3,
+    "volRatio": 1.17,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "BRK-B",
    "name": "Berkshire Hathaway",
-   "price": 548.56,
-   "change": 6.37,
-   "changePct": 1.17,
+   "price": 542.99,
+   "change": -5.57,
+   "changePct": -1.02,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 488.07,
-     "open": 491.92,
-     "high": 492.3,
-     "low": 484.55,
-     "volume": 6451500
-    },
     {
      "date": "2025-10-28",
      "close": 481.44,
@@ -18213,35 +18205,35 @@
      "date": "2026-10-26",
      "close": 548.56,
      "open": 542.25,
-     "high": 548.99,
+     "high": 549.0,
      "low": 542.0,
-     "volume": 4690175
+     "volume": 4698600
+    },
+    {
+     "date": "2026-10-27",
+     "close": 542.99,
+     "open": 547.97,
+     "high": 548.6,
+     "low": 542.92,
+     "volume": 3072197
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.169,
+    "cmf20": 0.13,
     "obvTrend": "rising",
-    "obvVsAvgPct": 164.3,
-    "volRatio": 1.05,
+    "obvVsAvgPct": 267.3,
+    "volRatio": 0.69,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "JPM",
    "name": "JPMorgan Chase",
-   "price": 334.04,
-   "change": 2.46,
-   "changePct": 0.74,
+   "price": 335.79,
+   "change": 1.75,
+   "changePct": 0.52,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 298.4,
-     "open": 302.16,
-     "high": 304.53,
-     "low": 301.01,
-     "volume": 5642200
-    },
     {
      "date": "2025-10-28",
      "close": 299.59,
@@ -20240,33 +20232,33 @@
      "open": 334.0,
      "high": 336.49,
      "low": 333.16,
-     "volume": 6200139
+     "volume": 6226500
+    },
+    {
+     "date": "2026-10-27",
+     "close": 335.79,
+     "open": 337.04,
+     "high": 337.5,
+     "low": 334.51,
+     "volume": 4584920
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.215,
+    "cmf20": -0.173,
     "obvTrend": "rising",
-    "obvVsAvgPct": 11.4,
-    "volRatio": 0.85,
+    "obvVsAvgPct": 13.8,
+    "volRatio": 0.64,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "V",
    "name": "Visa",
-   "price": 404.16,
-   "change": -3.76,
-   "changePct": -0.92,
+   "price": 401.86,
+   "change": -2.3,
+   "changePct": -0.57,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 345.06,
-     "open": 349.0,
-     "high": 349.52,
-     "low": 345.01,
-     "volume": 5400300
-    },
     {
      "date": "2025-10-28",
      "close": 344.15,
@@ -22265,33 +22257,33 @@
      "open": 405.75,
      "high": 407.53,
      "low": 402.64,
-     "volume": 5238738
+     "volume": 5296800
+    },
+    {
+     "date": "2026-10-27",
+     "close": 401.86,
+     "open": 402.07,
+     "high": 403.51,
+     "low": 397.36,
+     "volume": 8146153
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.147,
+    "cmf20": 0.195,
     "obvTrend": "rising",
-    "obvVsAvgPct": 107.6,
-    "volRatio": 0.89,
+    "obvVsAvgPct": 107.7,
+    "volRatio": 1.35,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "XOM",
    "name": "Exxon Mobil",
-   "price": 184.54,
-   "change": 1.33,
-   "changePct": 0.73,
+   "price": 179.91,
+   "change": -4.63,
+   "changePct": -2.51,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 112.67,
-     "open": 115.7,
-     "high": 115.99,
-     "low": 115.1,
-     "volume": 10975400
-    },
     {
      "date": "2025-10-28",
      "close": 111.79,
@@ -24288,35 +24280,35 @@
      "date": "2026-10-26",
      "close": 184.54,
      "open": 181.86,
-     "high": 184.58,
+     "high": 184.59,
      "low": 181.52,
-     "volume": 10875380
+     "volume": 10893300
+    },
+    {
+     "date": "2026-10-27",
+     "close": 179.91,
+     "open": 183.63,
+     "high": 184.88,
+     "low": 179.78,
+     "volume": 14020214
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.328,
+    "cmf20": 0.241,
     "obvTrend": "rising",
-    "obvVsAvgPct": 8.9,
-    "volRatio": 0.96,
+    "obvVsAvgPct": 5.5,
+    "volRatio": 1.21,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "UNH",
    "name": "UnitedHealth",
-   "price": 410.7,
-   "change": -7.39,
-   "changePct": -1.77,
+   "price": 410.39,
+   "change": -0.31,
+   "changePct": -0.08,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 356.49,
-     "open": 363.5,
-     "high": 366.22,
-     "low": 361.4,
-     "volume": 7766400
-    },
     {
      "date": "2025-10-28",
      "close": 358.3,
@@ -26315,33 +26307,33 @@
      "open": 418.99,
      "high": 420.86,
      "low": 408.35,
-     "volume": 4581751
+     "volume": 4583600
+    },
+    {
+     "date": "2026-10-27",
+     "close": 410.39,
+     "open": 412.72,
+     "high": 413.6,
+     "low": 408.22,
+     "volume": 3743538
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.022,
+    "cmf20": -0.038,
     "obvTrend": "falling",
-    "obvVsAvgPct": -3.9,
-    "volRatio": 0.76,
+    "obvVsAvgPct": -5.9,
+    "volRatio": 0.62,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "MA",
    "name": "Mastercard",
-   "price": 613.5,
-   "change": -10.1,
-   "changePct": -1.62,
+   "price": 609.85,
+   "change": -3.65,
+   "changePct": -0.59,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 568.7,
-     "open": 575.72,
-     "high": 575.72,
-     "low": 566.48,
-     "volume": 2981000
-    },
     {
      "date": "2025-10-28",
      "close": 562.32,
@@ -26640,7 +26632,7 @@
     },
     {
      "date": "2025-12-19",
-     "close": 568.58,
+     "close": 568.57,
      "open": 566.22,
      "high": 572.94,
      "low": 565.2,
@@ -28338,35 +28330,35 @@
      "date": "2026-10-26",
      "close": 613.5,
      "open": 622.2,
-     "high": 622.65,
+     "high": 622.76,
      "low": 611.37,
-     "volume": 2792830
+     "volume": 2793600
+    },
+    {
+     "date": "2026-10-27",
+     "close": 609.85,
+     "open": 611.49,
+     "high": 613.21,
+     "low": 605.81,
+     "volume": 3456827
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.061,
+    "cmf20": 0.088,
     "obvTrend": "rising",
-    "obvVsAvgPct": 599.0,
-    "volRatio": 0.91,
+    "obvVsAvgPct": 318.1,
+    "volRatio": 1.12,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "COST",
    "name": "Costco",
-   "price": 1005.16,
-   "change": 1.84,
-   "changePct": 0.18,
+   "price": 992.13,
+   "change": -13.03,
+   "changePct": -1.3,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 924.46,
-     "open": 930.21,
-     "high": 933.2,
-     "low": 925.12,
-     "volume": 1967600
-    },
     {
      "date": "2025-10-28",
      "close": 918.8,
@@ -30365,33 +30357,33 @@
      "open": 1001.32,
      "high": 1015.14,
      "low": 999.08,
-     "volume": 2259883
+     "volume": 2373600
+    },
+    {
+     "date": "2026-10-27",
+     "close": 992.13,
+     "open": 1002.09,
+     "high": 1002.82,
+     "low": 989.04,
+     "volume": 2227116
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.165,
+    "cmf20": 0.091,
     "obvTrend": "rising",
-    "obvVsAvgPct": 30.2,
-    "volRatio": 1.06,
+    "obvVsAvgPct": 20.2,
+    "volRatio": 1.05,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "HD",
    "name": "Home Depot",
-   "price": 319.38,
-   "change": -0.45,
-   "changePct": -0.14,
+   "price": 318.5,
+   "change": -0.88,
+   "changePct": -0.28,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 374.66,
-     "open": 387.7,
-     "high": 389.29,
-     "low": 382.9,
-     "volume": 3065800
-    },
     {
      "date": "2025-10-28",
      "close": 375.13,
@@ -32390,33 +32382,33 @@
      "open": 319.83,
      "high": 321.79,
      "low": 316.35,
-     "volume": 3642466
+     "volume": 3642700
+    },
+    {
+     "date": "2026-10-27",
+     "close": 318.5,
+     "open": 318.34,
+     "high": 319.89,
+     "low": 316.46,
+     "volume": 3518279
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.169,
+    "cmf20": 0.221,
     "obvTrend": "rising",
-    "obvVsAvgPct": 21.1,
-    "volRatio": 0.7,
+    "obvVsAvgPct": 13.7,
+    "volRatio": 0.69,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "PG",
    "name": "Procter & Gamble",
-   "price": 159.92,
-   "change": -1.1,
-   "changePct": -0.68,
+   "price": 159.23,
+   "change": -0.69,
+   "changePct": -0.43,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 147.46,
-     "open": 151.61,
-     "high": 151.76,
-     "low": 150.13,
-     "volume": 7775300
-    },
     {
      "date": "2025-10-28",
      "close": 147.1,
@@ -34415,33 +34407,33 @@
      "open": 160.76,
      "high": 161.6,
      "low": 158.85,
-     "volume": 8894320
+     "volume": 9491200
+    },
+    {
+     "date": "2026-10-27",
+     "close": 159.23,
+     "open": 158.71,
+     "high": 159.53,
+     "low": 158.42,
+     "volume": 7514437
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.723,
+    "cmf20": -0.686,
     "obvTrend": "rising",
-    "obvVsAvgPct": 62.2,
-    "volRatio": 0.88,
+    "obvVsAvgPct": 31.6,
+    "volRatio": 0.75,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "NFLX",
    "name": "Netflix",
-   "price": 63.9,
-   "change": -1.95,
-   "changePct": -2.96,
+   "price": 62.52,
+   "change": -1.38,
+   "changePct": -2.16,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 109.46,
-     "open": 110.07,
-     "high": 110.23,
-     "low": 108.73,
-     "volume": 46911000
-    },
     {
      "date": "2025-10-28",
      "close": 110.25,
@@ -36432,41 +36424,41 @@
      "open": 67.01,
      "high": 67.82,
      "low": 65.78,
-     "volume": 37815400
+     "volume": 37861500
     },
     {
      "date": "2026-10-26",
      "close": 63.9,
      "open": 65.16,
-     "high": 65.49,
-     "low": 62.87,
-     "volume": 54193966
+     "high": 65.5,
+     "low": 62.86,
+     "volume": 54422400
+    },
+    {
+     "date": "2026-10-27",
+     "close": 62.52,
+     "open": 63.4,
+     "high": 63.87,
+     "low": 62.48,
+     "volume": 48552166
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.123,
+    "cmf20": -0.143,
     "obvTrend": "falling",
-    "obvVsAvgPct": -14.2,
-    "volRatio": 1.26,
+    "obvVsAvgPct": -16.7,
+    "volRatio": 1.11,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "CRM",
    "name": "Salesforce",
-   "price": 247.61,
-   "change": -0.96,
-   "changePct": -0.39,
+   "price": 240.89,
+   "change": -6.72,
+   "changePct": -2.71,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 253.32,
-     "open": 257.08,
-     "high": 258.1,
-     "low": 254.92,
-     "volume": 4942400
-    },
     {
      "date": "2025-10-28",
      "close": 252.12,
@@ -38465,33 +38457,33 @@
      "open": 247.76,
      "high": 250.99,
      "low": 243.43,
-     "volume": 5687476
+     "volume": 5690100
+    },
+    {
+     "date": "2026-10-27",
+     "close": 240.89,
+     "open": 245.2,
+     "high": 248.06,
+     "low": 240.63,
+     "volume": 7552775
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.094,
+    "cmf20": 0.08,
     "obvTrend": "falling",
-    "obvVsAvgPct": -1.5,
-    "volRatio": 0.73,
+    "obvVsAvgPct": -5.2,
+    "volRatio": 1.01,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "AMD",
    "name": "AMD",
-   "price": 531.28,
-   "change": 14.49,
-   "changePct": 2.8,
+   "price": 560.26,
+   "change": 28.98,
+   "changePct": 5.45,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 259.67,
-     "open": 257.88,
-     "high": 260.42,
-     "low": 249.8,
-     "volume": 65613100
-    },
     {
      "date": "2025-10-28",
      "close": 258.01,
@@ -40482,41 +40474,41 @@
      "open": 510.21,
      "high": 523.92,
      "low": 508.36,
-     "volume": 15135900
+     "volume": 15177900
     },
     {
      "date": "2026-10-26",
      "close": 531.28,
-     "open": 522.75,
+     "open": 522.79,
      "high": 533.5,
      "low": 514.01,
-     "volume": 16655593
+     "volume": 16796800
+    },
+    {
+     "date": "2026-10-27",
+     "close": 560.26,
+     "open": 539.49,
+     "high": 563.91,
+     "low": 538.5,
+     "volume": 20488014
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.003,
+    "cmf20": 0.073,
     "obvTrend": "falling",
-    "obvVsAvgPct": -4.6,
-    "volRatio": 0.87,
+    "obvVsAvgPct": -1.2,
+    "volRatio": 1.06,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "DIS",
    "name": "Disney",
-   "price": 110.4,
-   "change": -2.12,
-   "changePct": -1.88,
+   "price": 110.23,
+   "change": -0.17,
+   "changePct": -0.15,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 110.74,
-     "open": 111.94,
-     "high": 112.6,
-     "low": 111.31,
-     "volume": 6029600
-    },
     {
      "date": "2025-10-28",
      "close": 110.06,
@@ -40607,7 +40599,7 @@
     },
     {
      "date": "2025-11-12",
-     "close": 114.98,
+     "close": 114.99,
      "open": 114.57,
      "high": 117.09,
      "low": 114.39,
@@ -42515,33 +42507,33 @@
      "open": 112.09,
      "high": 112.4,
      "low": 110.0,
-     "volume": 7224093
+     "volume": 7239500
+    },
+    {
+     "date": "2026-10-27",
+     "close": 110.23,
+     "open": 110.24,
+     "high": 110.43,
+     "low": 109.43,
+     "volume": 6463546
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.178,
+    "cmf20": 0.196,
     "obvTrend": "rising",
-    "obvVsAvgPct": 20.0,
-    "volRatio": 0.88,
+    "obvVsAvgPct": 14.4,
+    "volRatio": 0.79,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "KO",
    "name": "Coca-Cola",
-   "price": 92.7,
-   "change": -0.01,
-   "changePct": -0.01,
+   "price": 91.18,
+   "change": -1.52,
+   "changePct": -1.64,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 68.25,
-     "open": 69.78,
-     "high": 70.12,
-     "low": 69.25,
-     "volume": 13800000
-    },
     {
      "date": "2025-10-28",
      "close": 68.34,
@@ -44539,34 +44531,34 @@
      "close": 92.7,
      "open": 92.69,
      "high": 92.88,
-     "low": 91.93,
-     "volume": 20478411
+     "low": 91.94,
+     "volume": 20503200
+    },
+    {
+     "date": "2026-10-27",
+     "close": 91.18,
+     "open": 90.82,
+     "high": 92.94,
+     "low": 90.81,
+     "volume": 17631460
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.065,
-    "obvTrend": "rising",
-    "obvVsAvgPct": 9.4,
-    "volRatio": 1.22,
+    "cmf20": 0.039,
+    "obvTrend": "flat",
+    "obvVsAvgPct": -0.0,
+    "volRatio": 1.04,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "ABBV",
    "name": "AbbVie",
-   "price": 286.74,
-   "change": 1.1,
-   "changePct": 0.39,
+   "price": 286.39,
+   "change": -0.35,
+   "changePct": -0.12,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 221.4,
-     "open": 227.95,
-     "high": 228.6,
-     "low": 227.12,
-     "volume": 2784400
-    },
     {
      "date": "2025-10-28",
      "close": 220.93,
@@ -46565,33 +46557,33 @@
      "open": 287.05,
      "high": 289.59,
      "low": 285.18,
-     "volume": 4322608
+     "volume": 4514400
+    },
+    {
+     "date": "2026-10-27",
+     "close": 286.39,
+     "open": 283.88,
+     "high": 287.32,
+     "low": 283.16,
+     "volume": 3267429
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.193,
+    "cmf20": -0.141,
     "obvTrend": "rising",
-    "obvVsAvgPct": 46.3,
-    "volRatio": 0.82,
+    "obvVsAvgPct": 34.2,
+    "volRatio": 0.62,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "PFE",
    "name": "Pfizer",
-   "price": 29.79,
-   "change": -0.24,
-   "changePct": -0.8,
+   "price": 29.8,
+   "change": 0.01,
+   "changePct": 0.03,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 23.15,
-     "open": 24.74,
-     "high": 24.8,
-     "low": 24.63,
-     "volume": 34974900
-    },
     {
      "date": "2025-10-28",
      "close": 22.89,
@@ -48582,7 +48574,7 @@
      "open": 30.28,
      "high": 30.32,
      "low": 29.81,
-     "volume": 29464000
+     "volume": 29484100
     },
     {
      "date": "2026-10-26",
@@ -48590,33 +48582,33 @@
      "open": 30.0,
      "high": 30.31,
      "low": 29.72,
-     "volume": 25278348
+     "volume": 25656300
+    },
+    {
+     "date": "2026-10-27",
+     "close": 29.8,
+     "open": 29.54,
+     "high": 29.86,
+     "low": 29.51,
+     "volume": 23360770
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.043,
+    "cmf20": 0.022,
     "obvTrend": "rising",
-    "obvVsAvgPct": 1.9,
-    "volRatio": 0.85,
+    "obvVsAvgPct": 4.7,
+    "volRatio": 0.8,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "MRK",
    "name": "Merck",
-   "price": 140.61,
-   "change": -4.66,
-   "changePct": -3.21,
+   "price": 141.82,
+   "change": 1.21,
+   "changePct": 0.86,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 85.49,
-     "open": 87.51,
-     "high": 88.3,
-     "low": 87.03,
-     "volume": 7226600
-    },
     {
      "date": "2025-10-28",
      "close": 84.55,
@@ -50615,33 +50607,33 @@
      "open": 145.89,
      "high": 146.61,
      "low": 139.93,
-     "volume": 13089524
+     "volume": 13103800
+    },
+    {
+     "date": "2026-10-27",
+     "close": 141.82,
+     "open": 140.22,
+     "high": 142.69,
+     "low": 139.83,
+     "volume": 9045637
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.092,
+    "cmf20": -0.094,
     "obvTrend": "falling",
-    "obvVsAvgPct": -13.2,
-    "volRatio": 1.32,
+    "obvVsAvgPct": -8.1,
+    "volRatio": 0.91,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "WMT",
    "name": "Walmart",
-   "price": 120.29,
-   "change": 0.4,
-   "changePct": 0.33,
+   "price": 119.32,
+   "change": -0.97,
+   "changePct": -0.81,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 103.6,
-     "open": 106.34,
-     "high": 106.36,
-     "low": 104.15,
-     "volume": 16375900
-    },
     {
      "date": "2025-10-28",
      "close": 102.31,
@@ -52637,36 +52629,36 @@
     {
      "date": "2026-10-26",
      "close": 120.29,
-     "open": 119.83,
+     "open": 119.65,
      "high": 121.77,
      "low": 119.56,
-     "volume": 15445806
+     "volume": 16170200
+    },
+    {
+     "date": "2026-10-27",
+     "close": 119.32,
+     "open": 119.76,
+     "high": 120.06,
+     "low": 118.76,
+     "volume": 15694994
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.056,
+    "cmf20": 0.042,
     "obvTrend": "rising",
-    "obvVsAvgPct": 22.8,
-    "volRatio": 0.73,
+    "obvVsAvgPct": 12.7,
+    "volRatio": 0.76,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "BAC",
    "name": "Bank of America",
-   "price": 50.52,
-   "change": -0.04,
-   "changePct": -0.08,
+   "price": 50.68,
+   "change": 0.16,
+   "changePct": 0.32,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 51.91,
-     "open": 52.8,
-     "high": 53.07,
-     "low": 52.53,
-     "volume": 27345800
-    },
     {
      "date": "2025-10-28",
      "close": 51.77,
@@ -54662,36 +54654,36 @@
     {
      "date": "2026-10-26",
      "close": 50.52,
-     "open": 50.72,
-     "high": 51.49,
+     "open": 50.73,
+     "high": 51.5,
      "low": 50.46,
-     "volume": 32298132
+     "volume": 32360200
+    },
+    {
+     "date": "2026-10-27",
+     "close": 50.68,
+     "open": 50.94,
+     "high": 51.07,
+     "low": 50.49,
+     "volume": 24569295
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.064,
+    "cmf20": 0.071,
     "obvTrend": "falling",
-    "obvVsAvgPct": -7.8,
-    "volRatio": 0.75,
+    "obvVsAvgPct": -3.3,
+    "volRatio": 0.58,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "ORCL",
    "name": "Oracle",
-   "price": 126.06,
-   "change": -0.1,
-   "changePct": -0.08,
+   "price": 130.53,
+   "change": 4.47,
+   "changePct": 3.55,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 277.68,
-     "open": 286.57,
-     "high": 287.0,
-     "low": 279.81,
-     "volume": 13855800
-    },
     {
      "date": "2025-10-28",
      "close": 277.12,
@@ -56682,7 +56674,7 @@
      "open": 124.87,
      "high": 128.33,
      "low": 124.39,
-     "volume": 19178400
+     "volume": 19223400
     },
     {
      "date": "2026-10-26",
@@ -56690,33 +56682,33 @@
      "open": 126.06,
      "high": 127.99,
      "low": 123.75,
-     "volume": 22918222
+     "volume": 23008500
+    },
+    {
+     "date": "2026-10-27",
+     "close": 130.53,
+     "open": 126.88,
+     "high": 132.34,
+     "low": 127.19,
+     "volume": 25904273
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.238,
+    "cmf20": -0.22,
     "obvTrend": "falling",
-    "obvVsAvgPct": -5.4,
-    "volRatio": 0.8,
+    "obvVsAvgPct": -2.3,
+    "volRatio": 0.93,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "ADBE",
    "name": "Adobe",
-   "price": 258.62,
-   "change": -5.2,
-   "changePct": -1.97,
+   "price": 248.36,
+   "change": -10.26,
+   "changePct": -3.97,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 357.8,
-     "open": 355.57,
-     "high": 358.56,
-     "low": 352.41,
-     "volume": 2828200
-    },
     {
      "date": "2025-10-28",
      "close": 359.91,
@@ -58712,36 +58704,36 @@
     {
      "date": "2026-10-26",
      "close": 258.62,
-     "open": 262.3,
+     "open": 262.88,
      "high": 263.35,
      "low": 254.06,
-     "volume": 3252364
+     "volume": 3335700
+    },
+    {
+     "date": "2026-10-27",
+     "close": 248.36,
+     "open": 255.57,
+     "high": 256.84,
+     "low": 247.79,
+     "volume": 4706802
     }
    ],
    "moneyFlow": {
-    "cmf20": 0.235,
-    "obvTrend": "rising",
-    "obvVsAvgPct": 8.6,
-    "volRatio": 0.77,
+    "cmf20": 0.14,
+    "obvTrend": "falling",
+    "obvVsAvgPct": -2.4,
+    "volRatio": 1.1,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   },
   {
    "symbol": "QCOM",
    "name": "Qualcomm",
-   "price": 179.6,
-   "change": 3.69,
-   "changePct": 2.1,
+   "price": 184.17,
+   "change": 4.57,
+   "changePct": 2.54,
    "history": [
-    {
-     "date": "2025-10-27",
-     "close": 183.85,
-     "open": 168.95,
-     "high": 205.95,
-     "low": 168.82,
-     "volume": 81799300
-    },
     {
      "date": "2025-10-28",
      "close": 177.34,
@@ -60732,24 +60724,32 @@
      "open": 172.07,
      "high": 176.98,
      "low": 171.48,
-     "volume": 7244700
+     "volume": 7255800
     },
     {
      "date": "2026-10-26",
      "close": 179.6,
      "open": 176.74,
      "high": 181.0,
-     "low": 175.49,
-     "volume": 9651207
+     "low": 175.48,
+     "volume": 9668300
+    },
+    {
+     "date": "2026-10-27",
+     "close": 184.17,
+     "open": 180.93,
+     "high": 184.42,
+     "low": 179.29,
+     "volume": 12242748
     }
    ],
    "moneyFlow": {
-    "cmf20": -0.125,
+    "cmf20": -0.041,
     "obvTrend": "rising",
-    "obvVsAvgPct": 5.6,
-    "volRatio": 0.99,
+    "obvVsAvgPct": 12.7,
+    "volRatio": 1.24,
     "unusualVolume": false,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
    }
   }
  ]
