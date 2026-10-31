@@ -120,17 +120,28 @@
    "expected_abs_pct": 0.86,
    "abs_ret_pct": 0.34,
    "wild": false
+  },
+  {
+   "date": "2026-10-29",
+   "predicted_for": "2026-10-29",
+   "prob": 0.2207,
+   "persist": 0.1114,
+   "vix": 0.3479,
+   "clim": 0.2407,
+   "expected_abs_pct": 0.65,
+   "abs_ret_pct": 0.38,
+   "wild": false
   }
  ],
  "prediction": {
-  "issued_after": "2026-10-28",
-  "for_date": "2026-10-29",
-  "prob": 0.2207,
-  "expected_abs_pct": 0.65,
+  "issued_after": "2026-10-29",
+  "for_date": "2026-10-30",
+  "prob": 0.2511,
+  "expected_abs_pct": 0.66,
   "label": "A typical day",
   "baselines": {
-   "persistence": 0.1114,
-   "vix": 0.3479,
+   "persistence": 0.1155,
+   "vix": 0.356,
    "climatology": 0.2407
   }
  },
@@ -232,17 +243,17 @@
   ]
  },
  "live_stats": {
-  "n": 11,
+  "n": 12,
   "wild_days": 3,
-  "brier_model": 0.24549,
-  "brier_persistence": 0.23461,
-  "brier_vix": 0.22967,
-  "brier_climatology": 0.19943,
-  "skill_vs_persistence": -0.0464
+  "brier_model": 0.2291,
+  "brier_persistence": 0.21609,
+  "brier_vix": 0.22062,
+  "brier_climatology": 0.18763,
+  "skill_vs_persistence": -0.0602
  },
- "data_asof": "2026-10-28",
- "vix_asof": "2026-10-28",
- "generated": "2026-10-29T17:39:48.228876-07:00",
+ "data_asof": "2026-10-29",
+ "vix_asof": "2026-10-29",
+ "generated": "2026-10-30T17:39:17.955439-07:00",
  "backtest": {
   "window": "2016-01-01 to 2026-10-09 (walk-forward, monthly refits)",
   "n": 2708,
