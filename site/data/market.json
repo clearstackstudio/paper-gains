@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T22:39:31.668916+00:00",
+ "generated": "2026-11-07T22:39:43.555186+00:00",
  "disclaimer": "Delayed/indicative data for education only. Not financial advice.",
  "indices": [
   {
@@ -2015,15 +2015,15 @@
      "open": 7377.65,
      "high": 7444.2,
      "low": 7369.55,
-     "volume": 3410452000
+     "volume": 5701900000
     }
    ]
   },
   {
    "symbol": "^IXIC",
    "name": "Nasdaq",
-   "price": 24579.42,
-   "change": 264.42,
+   "price": 24579.43,
+   "change": 264.43,
    "changePct": 1.09,
    "history": [
     {
@@ -4028,11 +4028,11 @@
     },
     {
      "date": "2026-11-06",
-     "close": 24579.42,
+     "close": 24579.43,
      "open": 24602.48,
      "high": 24825.55,
      "low": 24507.63,
-     "volume": 9385738000
+     "volume": 10621670000
     }
    ]
   },
@@ -6049,7 +6049,7 @@
      "open": 51078.85,
      "high": 51662.26,
      "low": 50992.61,
-     "volume": 523301136
+     "volume": 523300000
     }
    ]
   }
