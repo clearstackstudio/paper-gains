@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T22:39:34.226415+00:00",
+ "generated": "2026-11-14T22:39:37.171266+00:00",
  "disclaimer": "Delayed/indicative data for education only. Not financial advice.",
  "indices": [
   {
@@ -2015,7 +2015,7 @@
      "open": 7616.85,
      "high": 7621.78,
      "low": 7499.4,
-     "volume": 2727332000
+     "volume": 4372990000
     }
    ]
   },
@@ -4032,7 +4032,7 @@
      "open": 25408.0,
      "high": 25423.09,
      "low": 24872.41,
-     "volume": 7740442000
+     "volume": 8691350000
     }
    ]
   },
@@ -6049,7 +6049,7 @@
      "open": 52490.68,
      "high": 52521.48,
      "low": 52017.86,
-     "volume": 645244111
+     "volume": 645240000
     }
    ]
   }
