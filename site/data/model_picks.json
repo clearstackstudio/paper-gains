@@ -1,6 +1,6 @@
 {
  "strategy": "Top-5 trailing 20-trading-day momentum: each week the model buys the 5 stocks with the best 20-trading-day return as of the previous Friday's close and holds them one week. Mechanical rule, no human override, no lookahead.",
- "generated": "2026-11-09T03:58:06.219499+00:00",
+ "generated": "2026-11-16T03:58:00.071765+00:00",
  "weeks": {
   "2025-W46": {
    "picks": [
@@ -531,6 +531,16 @@
     "BRK-B"
    ],
    "picked_at": "2026-11-06"
+  },
+  "2026-W48": {
+   "picks": [
+    "HD",
+    "COST",
+    "BRK-B",
+    "TSLA",
+    "WMT"
+   ],
+   "picked_at": "2026-11-13"
   }
  }
 }
