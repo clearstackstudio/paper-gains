@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T05:39:32.033021+00:00",
+ "generated": "2026-11-22T05:39:44.553300+00:00",
  "disclaimer": "Delayed/indicative data for education only. Not financial advice.",
  "stocks": [
   {
@@ -155,7 +155,7 @@
     },
     {
      "date": "2025-12-18",
-     "close": 271.25,
+     "close": 271.24,
      "open": 273.61,
      "high": 273.63,
      "low": 266.95,
@@ -4077,7 +4077,7 @@
     },
     {
      "date": "2025-11-25",
-     "close": 177.4,
+     "close": 177.39,
      "open": 174.91,
      "high": 178.16,
      "low": 169.55,
