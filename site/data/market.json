@@ -1,22 +1,14 @@
 {
- "generated": "2026-11-24T05:39:31.637261+00:00",
+ "generated": "2026-11-25T05:39:34.175557+00:00",
  "disclaimer": "Delayed/indicative data for education only. Not financial advice.",
  "indices": [
   {
    "symbol": "^GSPC",
    "name": "S&P 500",
-   "price": 7237.17,
-   "change": 326.78,
-   "changePct": 4.73,
+   "price": 7201.09,
+   "change": -36.08,
+   "changePct": -0.5,
    "history": [
-    {
-     "date": "2025-11-24",
-     "close": 6705.12,
-     "open": 6636.54,
-     "high": 6715.75,
-     "low": 6630.7,
-     "volume": 6039740000
-    },
     {
      "date": "2025-11-25",
      "close": 6765.88,
@@ -2016,24 +2008,24 @@
      "high": 7295.6,
      "low": 7152.66,
      "volume": 5608530000
+    },
+    {
+     "date": "2026-11-24",
+     "close": 7201.09,
+     "open": 7172.33,
+     "high": 7223.95,
+     "low": 7138.93,
+     "volume": 5244060000
     }
    ]
   },
   {
    "symbol": "^IXIC",
    "name": "Nasdaq",
-   "price": 24089.56,
-   "change": 1471.83,
-   "changePct": 6.51,
+   "price": 23733.54,
+   "change": -356.02,
+   "changePct": -1.48,
    "history": [
-    {
-     "date": "2025-11-24",
-     "close": 22872.01,
-     "open": 22482.16,
-     "high": 22916.4,
-     "low": 22478.27,
-     "volume": 9232160000
-    },
     {
      "date": "2025-11-25",
      "close": 23025.59,
@@ -4033,24 +4025,24 @@
      "high": 24353.65,
      "low": 23794.96,
      "volume": 11346040000
+    },
+    {
+     "date": "2026-11-24",
+     "close": 23733.54,
+     "open": 23745.86,
+     "high": 23884.74,
+     "low": 23455.84,
+     "volume": 9222160000
     }
    ]
   },
   {
    "symbol": "^DJI",
    "name": "Dow Jones",
-   "price": 49595.31,
-   "change": 1447.98,
-   "changePct": 3.01,
+   "price": 50018.7,
+   "change": 423.39,
+   "changePct": 0.85,
    "history": [
-    {
-     "date": "2025-11-24",
-     "close": 46448.27,
-     "open": 46351.93,
-     "high": 46587.71,
-     "low": 46108.01,
-     "volume": 743580000
-    },
     {
      "date": "2025-11-25",
      "close": 47112.45,
@@ -6050,6 +6042,14 @@
      "high": 49810.26,
      "low": 49033.31,
      "volume": 1200080000
+    },
+    {
+     "date": "2026-11-24",
+     "close": 50018.7,
+     "open": 49494.6,
+     "high": 50075.12,
+     "low": 49294.49,
+     "volume": 712700000
     }
    ]
   }
